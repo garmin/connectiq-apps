@@ -1,0 +1,51 @@
+<!--
+ Copyright 2015 by Garmin Ltd. or its subsidiaries.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <strings>
+	    <!-- General App Strings -->
+	    <string id="AppName">Disc Golf IQ</string>
+	    <!-- DiscGolfIQView Strings -->
+	    <string id="text_welcome_message">Pick a course on your phone and&#xA;send it to your watch.</string>
+	    <string id="text_waiting_for_message1">Waiting for course.</string>
+	    <string id="text_waiting_for_message2">Waiting for course..</string>
+	    <string id="text_waiting_for_message3">Waiting for course...</string>
+	    <!-- CourseView Strings -->
+	    <string id="prompt_start_round">Tap to begin round</string>
+	    <string id="title_course_info">Course Info</string>
+	    <string id="text_holes">Holes: </string>
+	    <string id="text_par">Par: </string>
+	    <string id="title_players">Players</string>
+	    <!-- RoundView Strings -->
+	    <string id="title_round_status">Round</string>
+	    <string id="text_round_status">Status: on hole </string>
+	    <string id="text_round_status_complete">Status: round complete</string>
+	    <string id="text_sending_round">Sending scorecard to phone...</string>
+	    <string id="text_transfer_success">Transfer Succeeded</string>
+	    <string id="text_transfer_failure">Transfer Failed</string>
+	    <string id="prompt_end_round">Go back to end round</string>
+	    <!-- HoleView Strings -->
+	    <string id="title_hole">Hole </string>
+	    <string id="text_distance">Dist: </string>
+	    <!-- SaveRoundView Strings -->
+	    <string id="text_save_round_message">Would you like to&#xA;save the current round&#xA;before quitting?</string>
+	    <string id="text_save_round">Save Round</string>
+	    <string id="text_quit_without_saving">Discard Round</string>
+	    <string id="text_cancel">Cancel</string>
+	    <!-- ScorePickerView Strings -->
+	    <string id="title_score_picker">Score for</string>
+	    <string id="text_strokes_label">strokes</string>
+    </strings>
+</resources>

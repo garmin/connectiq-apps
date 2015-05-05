@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2015 by Garmin Ltd. or its subsidiaries.
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<resources>
+
+    <string name="app_name">Disc Golf</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="course_action_bar_title">Setup Course</string>
+    <string name="course_next_page_label">Setup Players</string>
+    <string name="course_name_label">Course Name</string>
+    <string name="course_par_label">Course Par</string>
+    <string name="course_holes_label">Course Holes</string>
+    <string name="hole_number_label">Hole Number </string>
+    <string name="hole_par_label">Hole Par</string>
+    <string name="hole_distance_label">Hole Distance</string>
+    <string name="hole_number_1">1</string>
+    <string name="hole_number_2">2</string>
+    <string name="hole_number_3">3</string>
+    <string name="hole_number_4">4</string>
+    <string name="hole_number_5">5</string>
+    <string name="hole_number_6">6</string>
+    <string name="hole_number_7">7</string>
+    <string name="hole_number_8">8</string>
+    <string name="hole_number_9">9</string>
+    <string name="hole_number_10">10</string>
+    <string name="hole_number_11">11</string>
+    <string name="hole_number_12">12</string>
+    <string name="hole_number_13">13</string>
+    <string name="hole_number_14">14</string>
+    <string name="hole_number_15">15</string>
+    <string name="hole_number_16">16</string>
+    <string name="hole_number_17">17</string>
+    <string name="hole_number_18">18</string>
+    <string name="hole_default_par">3</string>
+    
+    <string name="players_action_bar_title">Setup Players</string>
+    <string name="players_number_label">Number of Players</string>
+    <string name="players_name_label">Name</string>
+    <string name="players_next_page_label">Select a Device</string>
+    
+    <string name="send_round_action_bar_title">Send Round to Device</string>
+    <string name="service_unavailable">The ConnectIQ service is unavailabe.</string>
+    <string name="missing_app_title">Missing Disc Golf App</string>
+    <string name="missing_app_message">The Disc Golf App used with this application is not installed on your ConnectIQ device. Please install the widget and try again.</string>
+    <string name="device_add_new_label">Add new devices through Garmin Connect Mobile</string>
+    <string name="start_round_label">Start Round</string>
+    
+    <string name="scorecard_title">Scorecard</string>
+
+</resources>
