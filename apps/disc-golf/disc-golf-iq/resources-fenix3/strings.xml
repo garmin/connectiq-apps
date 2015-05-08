@@ -18,7 +18,7 @@
 	    <!-- DiscGolfIQView Strings -->
 	    <string id="text_welcome_message">Pick a course on your&#xA;phone and send it to&#xA;your watch.</string>
 	    <!-- CourseView Strings -->
-	    <string id="prompt_start_round">Press enter to begin</string>
+	    <string id="prompt_start_round">Press START to begin</string>
 	    <!-- SaveRoundView Strings -->
 	    <string id="text_save_round_message">Would you like to&#xA;save the current round&#xA;before quitting?</string>
     </strings>
