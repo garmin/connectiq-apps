@@ -1,2 +1,2 @@
 # connectiq-apps
-A collection of Connect IQ apps.
+A collection of Connect IQ apps and libraries.
