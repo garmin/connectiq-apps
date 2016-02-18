@@ -1,33 +1,42 @@
-# built application files
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/app/build
+
+#built application files
 *.apk
-*.ap_
+*.ap_
+
 # files for the dex VM
-*.dex
+*.dex
+
 # Java class files
-*.class
+*.class
+
 # generated files
 bin/
-gen/
+gen/
+
 # Local configuration file (sdk path, etc)
-local.properties
-*.pydevproject
-.metadata
-bin/**
-tmp/**
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
 local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Eclipse project files
 .classpath
-.settings/
-.loadpath
-# External tool builders
-.externalToolBuilders/
-# Locally stored "Eclipse launch configurations"
-*.launch
-# CDT-specific
-.cproject
-# PDT-specific
-.buildpath
+.project
+
+# Android Studio
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+build/
+
+#NDK
+obj/
