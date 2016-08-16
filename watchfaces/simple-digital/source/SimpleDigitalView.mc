@@ -69,7 +69,7 @@ class SimpleDigitalView extends WatchUi.WatchFace {
 
 		// Now that we've called the parent method, we can add any custom drawing code (and it won't be overdrawn by the layout)
 		dateLabel.setColor(fgColor);
-		dc.drawText(deviceSettings.screenWidth/2, deviceSettings.screenHeight-30, Gfx.FONT_MEDIUM, "Garmin", Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(deviceSettings.screenWidth/2, deviceSettings.screenHeight-20, Gfx.FONT_TINY, "Garmin", Gfx.TEXT_JUSTIFY_CENTER);
 	}
 
 }
