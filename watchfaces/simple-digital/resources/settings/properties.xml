@@ -1,0 +1,4 @@
+<properties>
+	<property id="ForegroundColor" type="number">0xFFFFFF</property>
+	<property id="DisplayMonth" type="boolean">true</property>
+</properties>
