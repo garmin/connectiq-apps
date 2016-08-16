@@ -41,9 +41,12 @@ class SimpleDigitalView extends WatchUi.WatchFace {
 			localHour = localHour.format("%02d");
 		}
 
+		// set up the date label, which will be used regardless of the 'displayMonth' setting
 		var dateLabel = View.findDrawableById("DayOfWeekLabel");
 		dateLabel.setColor(fgColor);
 
+		// If the user settings are configured to display the month then display the long format day of
+		//   the week on top and the date (eg. 16 AUGUST) underneath.
 		if (displayMonth) {
 			// grab the long info... (which may or may not be long format depending on CIQ version)
 			var longTimeInfo =  Time.Gregorian.info(timeNow, Time.FORMAT_LONG);
@@ -55,6 +58,7 @@ class SimpleDigitalView extends WatchUi.WatchFace {
 			dateLabel.setText(timeInfo.day_of_week.toUpper() + " " + timeInfo.day.format("%02d"));
 	    }
 
+		// setup the time label
 		var timeLabel = View.findDrawableById("TimeLabel");
 		timeLabel.setColor(fgColor);
 		timeLabel.setText(Lang.format("$1$:$2$", [localHour, timeInfo.min.format("%02d")]));
