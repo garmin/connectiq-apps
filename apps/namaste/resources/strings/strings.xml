@@ -1,0 +1,15 @@
+<strings>
+    <string id="AppName">Namaste</string>
+
+    <string id="prompt">Press Start\nto Begin</string>
+
+    <string id="menu_label_1">Resume</string>
+    <string id="menu_label_2">Save</string>
+    <string id="menu_label_3">Discard</string>
+    
+    
+    <string id="namaste_label">Instantaneous Enlightenment</string>
+    <string id="namaste_graph_label">Cumulative Enlightenment</string>
+    <string id="namaste_units">N(s)</string>
+   
+</strings>

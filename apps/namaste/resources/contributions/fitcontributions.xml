@@ -1,0 +1,9 @@
+
+ <fitContributions>
+        <fitField id="1" displayInChart="true" sortOrder = "0" precision="1"
+        chartTitle="@Strings.namaste_graph_label" dataLabel="@Strings.namaste_label"
+        unitLabel="@Strings.namaste_units" fillColor="#FF0000" />
+        
+        <fitField id="2" displayInActivitySummary="true" sortOrder = "1" precision="-1"
+        dataLabel="@Strings.namaste_label" unitLabel="@Strings.namaste_units"  />        
+</fitContributions>
