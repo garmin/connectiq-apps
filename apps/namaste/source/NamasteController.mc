@@ -1,4 +1,8 @@
-
+//
+// Copyright 2015-2016 by Garmin Ltd. or its subsidiaries.
+// Subject to Garmin SDK License Agreement and Wearables
+// Application Developer Agreement.
+//
 using Toybox.Timer;
 using Toybox.Application;
 using Toybox.WatchUi;
@@ -48,7 +52,7 @@ class NamasteController
         mModel.save();
         // Give the system some time to finish the recording. Push up a progress bar
         // and start a timer to allow all processing to finish
-        WatchUi.pushView(new WatchUi.ProgressBar("Saving...", null), self, WatchUi.SLIDE_DOWN);
+        WatchUi.pushView(new WatchUi.ProgressBar("Saving...", null), new NamasteProgressDelegate(), WatchUi.SLIDE_DOWN);
         mTimer = new Timer.Timer();
         mTimer.start(method(:onExit), 3000, false);
     }
@@ -58,7 +62,7 @@ class NamasteController
         mModel.discard();
         // Give the system some time to discard the recording. Push up a progress bar
         // and start a timer to allow all processing to finish
-        WatchUi.pushView(new WatchUi.ProgressBar("Discarding...", null), self, WatchUi.SLIDE_DOWN);
+        WatchUi.pushView(new WatchUi.ProgressBar("Discarding...", null), new NamasteProgressDelegate(), WatchUi.SLIDE_DOWN);
         mTimer = new Timer.Timer();
         mTimer.start(method(:onExit), 3000, false);
     }
@@ -73,6 +77,7 @@ class NamasteController
         return mModel.getTimeElapsed();
     }
 
+    // Handle the start/stip button
     function onStartStop() {
         if(mRunning) {
             stop();
@@ -82,6 +87,7 @@ class NamasteController
         }
     }
 
+    // Handle timing out after exit
     function onExit() {
         System.exit();
     }
