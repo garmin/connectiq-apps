@@ -1,0 +1,20 @@
+<layouts>
+	<layout id="Summary">
+        <drawable id="header" />
+        
+        <label id="Title" text="@Strings.titleLabel" x="center" y="0" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" />
+        
+	    <label id="swimLabel" text="@Strings.swimLabel " x="center" y="40" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_BLUE" />
+	    <label id="bikeLabel" text="@Strings.bikeLabel" x="center" y="65" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_BLUE" />
+	    <label id="runLabel" text="@Strings.runLabel" x="center" y="90" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_BLUE" />
+        <label id="totalLabel" text="@Strings.totalLabel" x="center" y="115" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_BLUE" />
+         		
+        
+		<label id="swim" x="center" y="40" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" />
+	    <label id="bike" text="@Strings.loading" x="center" y="65" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" />
+	    <label id="run" x="center" y="90" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" />
+        <label id="total" x="center" y="115" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" />
+    
+	</layout>
+    
+</layouts>
