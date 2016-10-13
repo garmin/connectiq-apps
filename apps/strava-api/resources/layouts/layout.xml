@@ -25,9 +25,10 @@
     <layout id="LoginLayout">
         <bitmap id="gcm" filename="../images/gcm.png" x="center" y="0" dithering="none" >
             <palette>
-                <color>0000FF</color>
+            	<color>000000</color>
+                <color>555555</color>
+                <color>AAAAAA</color>                
                 <color>00AAFF</color>
-                <color>FFFFFF</color>
             </palette>
         </bitmap>    
         <label x="center" y="65" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" text="@Strings.goToPhone" />
@@ -37,9 +38,10 @@
     <layout id="Gcm">
         <bitmap id="gcm" filename="../images/gcm.png" x="center" y="0" dithering="none" >
             <palette>
-                <color>0000FF</color>
+            	<color>000000</color>
+                <color>555555</color>
+                <color>AAAAAA</color>                
                 <color>00AAFF</color>
-                <color>FFFFFF</color>
             </palette>
         </bitmap>
         <label x="center" y="65" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" text="@Strings.connectString1" />
