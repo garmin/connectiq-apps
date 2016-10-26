@@ -1,3 +1,8 @@
+//
+// Copyright 2015-2016 by Garmin Ltd. or its subsidiaries.
+// Subject to Garmin SDK License Agreement and Wearables
+// Application Developer Agreement.
+//
 using Toybox.Activity;
 using Toybox.Sensor;
 using Toybox.System;
@@ -26,6 +31,8 @@ class NamasteModel
     hidden var mZones;
     // FIT recording session
     hidden var mSession;
+    // Environment sensor
+    var mEnvironmentSensor;
     // FIT field for instantaneous enlightenment
     hidden var mCurrentNamasteField;
     // FIT field for accumulated enlightenment
@@ -49,6 +56,9 @@ class NamasteModel
         // Get the user's HR zones
         mZones = UserProfile.getHeartRateZones(UserProfile.HR_ZONE_SPORT_GENERIC);
 
+        // Start the sensor reading
+        mEnvironmentSensor = new TempeSensor();
+
         // Create a new FIT recording session
         mSession = ActivityRecording.createSession({:sport=>ActivityRecording.SPORT_GENERIC, :name=>"Yoga"});
         // Create the new FIT fields to record to.
@@ -58,6 +68,8 @@ class NamasteModel
 
     // Begin sensor processing
     function start() {
+        // Start the environment sensor
+        mEnvironmentSensor.open();
         // Allocate the timer
         mTimer = new Timer.Timer();
         // Process the sensors at 4 Hz
@@ -68,6 +80,8 @@ class NamasteModel
 
     // Stop sensor processing
     function stop() {
+        // Stop the environment sensor
+        mEnvironmentSensor.closeSensor();
         // Stop the timer
         mTimer.stop();
         // Stop the FIT recording

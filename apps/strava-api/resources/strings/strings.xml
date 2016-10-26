@@ -1,0 +1,17 @@
+<strings>
+    <string id="AppName">Strava 4-Week Summary</string>
+    <string id="titleLabel">Four Week\nSummary</string>
+    <string id="swimLabel">Swim:</string>
+    <string id="bikeLabel">Bike:</string>
+    <string id="runLabel">Run:</string>
+    <string id="totalLabel">Total:</string>
+    
+    <string id="connectString1">Please connect your</string>
+    <string id="connectString2">phone and open the</string>
+    <string id="connectString3">Connect Mobile App</string>
+    
+    <string id="goToPhone">Open the</string>   
+    
+    <string id="loading"> Loading...</string>
+    <string id="error">Error: </string>
+</strings>

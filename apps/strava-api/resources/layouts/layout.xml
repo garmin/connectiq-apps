@@ -1,0 +1,51 @@
+<layouts>
+    <layout id="Summary">
+        <drawable id="header" />
+        
+        <label id="Title" text="@Strings.titleLabel" x="center" y="0" font="Gfx.FONT_TINY" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLACK" />
+        
+        <label id="swimLabel" text="@Strings.swimLabel " x="center" y="60" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_BLUE" />
+        <label id="bikeLabel" text="@Strings.bikeLabel" x="center" y="85" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_BLUE" />
+        <label id="runLabel" text="@Strings.runLabel" x="center" y="110" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_BLUE" />
+        <label id="totalLabel" text="@Strings.totalLabel" x="center" y="135" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_BLUE" />
+                 
+        
+        <label id="swim" x="center" y="60" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" />
+        <label id="bike" text="@Strings.loading" x="center" y="85" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" />
+        <label id="run" x="center" y="110" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" />
+        <label id="total" x="center" y="135" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" />
+    
+    </layout>
+    
+    
+    <layout id="ErrorLayout">
+        <label id="Message" x="center" y="center" justification="Gfx.TEXT_JUSTIFY_CENTER" color="FFFFFF"/>
+    </layout>
+    
+    <layout id="LoginLayout">
+        <bitmap id="gcm" filename="../images/gcm.png" x="center" y="0" dithering="none" >
+            <palette>
+            	<color>000000</color>
+                <color>555555</color>
+                <color>AAAAAA</color>                
+                <color>00AAFF</color>
+            </palette>
+        </bitmap>    
+        <label x="center" y="65" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" text="@Strings.goToPhone" />
+        <label x="center" y="85" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" text="@Strings.connectString3" />
+    </layout>
+    
+    <layout id="Gcm">
+        <bitmap id="gcm" filename="../images/gcm.png" x="center" y="0" dithering="none" >
+            <palette>
+            	<color>000000</color>
+                <color>555555</color>
+                <color>AAAAAA</color>                
+                <color>00AAFF</color>
+            </palette>
+        </bitmap>
+        <label x="center" y="65" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" text="@Strings.connectString1" />
+        <label x="center" y="85" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" text="@Strings.connectString2" />
+        <label x="center" y="105" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" text="@Strings.connectString3" />
+    </layout>
+</layouts>
