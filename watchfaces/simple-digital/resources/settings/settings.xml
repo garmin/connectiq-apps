@@ -1,0 +1,12 @@
+<settings>
+	<setting propertyKey="@Properties.ForegroundColor" title="@Strings.ForegroundColorTitle">
+		<settingConfig type="list">
+			<listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+			<listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.DisplayMonth" title="@Strings.DisplayMonthTitle">
+		<settingConfig type="boolean" />
+	</setting>
+</settings>

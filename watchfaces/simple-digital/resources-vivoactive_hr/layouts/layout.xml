@@ -1,0 +1,6 @@
+<layout id="WatchFace">
+	<bitmap id="BackgroundLogo" filename="../../resources/drawables/garmin-logo.png" x="8" y="42" />
+	<label id="DayOfWeekLabel" x="center" y="44" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+	<label id="TimeLabel" x="center" y="64" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+	<label id="MonthLabel" x="center" y="132" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+</layout>

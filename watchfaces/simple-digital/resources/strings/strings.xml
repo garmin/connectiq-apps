@@ -1,0 +1,11 @@
+<strings>
+
+    <string id="AppName">Simple Digital</string>
+
+    <string id="ForegroundColorTitle">Foreground Color</string>
+    <string id="DisplayMonthTitle">Display Month</string>
+
+    <string id="ColorBlack">Black</string>
+    <string id="ColorWhite">White</string>
+    
+</strings>
