@@ -1,4 +1,4 @@
-![Garmin Logo](https://static.garmincdn.com/com.garmin/ui/images/logo/garmin_logo_on_w.png0)
+![Garmin Logo](https://static.garmincdn.com/com.garmin/ui/images/logo/garmin_logo_on_w.png)
 
 # Garmin connectiq-apps
 
