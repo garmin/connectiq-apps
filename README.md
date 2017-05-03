@@ -5,6 +5,8 @@
 ## Build something with us
 In this repo you'll find a collection of Connect IQ apps and libraries.
 
+What can you build? In here you'll find the tools to build a unique experience leveraging our devices’ sensors and features using different app types, available APIs, and ANT+ profiles. There's [many different APIs and sensors available](https://developer.garmin.com/connect-iq/what-you-can-build/) to you. Customizable data fields, watch faces, widgets, and apps are all extensible parts of the Garmin Connect IQ platform.
+
 ## Further information
 For further information and access to the Garmin Connect IQ SDK please visit the [Garmin Developer Centre](https://developer.garmin.com/).
 
