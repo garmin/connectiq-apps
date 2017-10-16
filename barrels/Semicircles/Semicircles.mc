@@ -18,8 +18,9 @@ using Toybox.Position;
 using Toybox.Lang;
 using Toybox.Math;
 using Toybox.System;
-using Toybox.Test;
 
+//! This module contains classes and functions for implementing a semicircles
+//! based coordinates
 module Semicircles {
 
     //! Execption for unhandled coordinate formats
@@ -49,7 +50,7 @@ module Semicircles {
         private var _lat;
         private var _lon;
 
-        //! Private conversion function to convert locations to semicircles
+        //! Initialize the coordinate class
         //! @param [Toybox::Lang::Object] Type based off the following options
         //!    [Toybox::Lang::Dictionary] Allows input options
         //!      [:latitude] Specify the latitude
@@ -131,9 +132,6 @@ module Semicircles {
         //! @param [Toybox::Lang::Object] pt1 Type based off the following options
         //!    [Toybox::Position::Location] Convert the location to semicircles
         //!    [Toybox::Lang::Array] Assumes latitude is in radians as value 0, and longitude is in radians in value 1
-        //! @param [Toybox::Lang::Object] pt2 Type based off the following options
-        //!    [Toybox::Position::Location] Convert the location to semicircles
-        //!    [Toybox::Lang::Array] Assumes latitude is in radians as value 0, and longitude is in radians in value 1
         public function computeDistanceInMeters(pt) {
             var pt1 = [_lat, _lon];
             var pt2 = convertToSemicircle(pt);
@@ -165,93 +163,4 @@ module Semicircles {
         }
     }
 
-
-    // Wrapping all test cases within a module will allow the compiler
-    // to eliminate the entire module when not building unit tests.
-    (:test)
-    module Test {
-
-        function computeDistanceBetweenTwoPointsInMeters(logger, pt1, pt2) {
-            pt1 = new Coordinate(pt1);
-
-            pt2 = new Coordinate(pt2);
-            return pt1.computeDistanceInMeters(pt2);
-        }
-
-        (:test)
-        function testLongerDistance(logger) {
-            var result = computeDistanceBetweenTwoPointsInMeters(
-                logger,
-                [464239996, -1130764382],
-                [464215044, -1130815196]
-                );
-            logger.debug("Result = " + result);
-            Test.assert( ((result > 435) && (result < 436)));
-            return true;
-        }
-
-        (:test)
-        function testDistance(logger) {
-            var result = computeDistanceBetweenTwoPointsInMeters(
-                logger,
-                [609043028, -1360851358],
-                [609050505, -1360850722]
-                );
-            logger.debug("Result = " + result);
-            Test.assert(((result > 69) && (result < 71)));
-            return true;
-        }
-
-        (:test)
-        function testDistanceWithCoordinate(logger) {
-            var result = computeDistanceBetweenTwoPointsInMeters(
-                logger,
-                new Coordinate({:latitude=>609043028, :longitude=>-1360851358, :format=>:semicircles}),
-                new Coordinate({:latitude=>609050505, :longitude=>-1360850722, :format=>:semicircles})
-                );
-            logger.debug("Result = " + result);
-            Test.assert(((result > 69) && (result < 71)));
-            return true;
-        }
-
-        (:test)
-        function testDistanceWithRadians(logger) {
-            var result = computeDistanceBetweenTwoPointsInMeters(
-                logger,
-                new Coordinate({:latitude=>0.890979304d, :longitude=>-1.990812373d, :format=>:radians}),
-                new Coordinate({:latitude=>0.890990242d, :longitude=>-1.990811443d, :format=>:radians})
-                );
-            logger.debug("Result = " + result);
-            Test.assert(((result > 69) && (result < 71)));
-            return true;
-        }
-
-        (:test)
-        function testBadTypes(logger) {
-            var failed = false;
-            try {
-                logger.debug("Testing string second argument");
-                var result = computeDistanceBetweenTwoPointsInMeters(logger, [609043028, -1360851358], "WHAZZZUP?!");
-            } catch (e instanceof BadCoordinateFormatException) {
-                failed = true;
-            }
-
-            if(!failed) {
-                return false;
-            }
-
-            failed = false;
-            try {
-                logger.debug("Testing string first argument");
-                var result = computeDistanceBetweenTwoPointsInMeters(logger, "WHAZZZUP?!", [609043028, -1360851358] );
-            } catch (e instanceof BadCoordinateFormatException) {
-                failed = true;
-            }
-
-            if(!failed) {
-                return false;
-            }
-            return true;
-        }
-    }
 }
