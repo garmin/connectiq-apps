@@ -103,8 +103,8 @@ module Semicircles {
                     result[1] = value[1];
                     break;
                 default:
-                    // Referncing Position.Location would require the position permission.
-                    // That doesn't mean we can't check if we have a toRadians function.
+                    // Referencing Position.Location (even with instanceof) would require the position permission.
+                    // That doesn't mean we can't check if we have a toRadians function... #sneaky
                     if (value has :toRadians) {
                         var coords = value.toRadians();
                         result[0] = ((coords[0] * 0x80000000l)/Math.PI).toNumber();

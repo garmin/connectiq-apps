@@ -20,6 +20,8 @@ using Toybox.Math;
 using Toybox.System;
 using Toybox.Test;
 
+// This module contains classes and functions for implementing a semicircles
+// based coordinates. This file defines the unit tests for the class.
 module Semicircles {
 
     // Wrapping all test cases within a module will allow the compiler
