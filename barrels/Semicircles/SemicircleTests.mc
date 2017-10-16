@@ -42,7 +42,7 @@ module Semicircles {
                 [464215044, -1130815196]
                 );
             logger.debug("Result = " + result);
-            Test.assert( ((result > 435) && (result < 436)));
+            Test.assert( ((result > 436) && (result < 437)));
             return true;
         }
 

@@ -45,7 +45,7 @@ module Semicircles {
     //! between two point computation.
     class Coordinate {
         //! Constant for semicircles per meter at the equator
-        const SC_PER_M = 107.26d;
+        const SC_PER_M = 107.173;
 
         private var _lat;
         private var _lon;
