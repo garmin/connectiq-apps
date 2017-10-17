@@ -1,0 +1,312 @@
+(lmf1)[2017-12-04 16:08:22] {D} TestLogMonkeyApp: initialize()
+(lmf1)[2017-12-04 16:08:22] {D} TestLogMonkeyApp: onStart(state)
+(lmf1)[2017-12-04 16:08:22] {D} TestLogMonkeyApp.onStart(state): state=(null) null
+(lmf1)[2017-12-04 16:08:22] {D} TestLogMonkeyApp: getInitialView()
+(lmf1)[2017-12-04 16:08:22] {D} TestLogMonkeyDelegate: initialize()
+(lmf1)[2017-12-04 16:08:22] {D} MenuInputDelegate: initialize()
+(lmf1)[2017-12-04 16:08:22] {D} TestLogMonkeyView: onLayout(dc)
+(lmf1)[2017-12-04 16:08:22] {D} TestLogMonkeyView.onUpdate(dc): dc=(Object) Obj: 160
+(lmf1)[2017-12-04 16:08:22] {D} TestLogMonkeyView: onShow()
+(lmf1)[2017-12-04 16:08:22] {D} TestLogMonkeyView: onUpdate(dc)
+(lmf1)[2017-12-04 16:08:22] {D} TestLogMonkeyView.onUpdate(dc): dc=(Object) Obj: 177
+(lmf1)[2017-12-04 16:08:23] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:23] {W} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:08:24] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:24] {E} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:08:25] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:25] {W} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:08:26] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:26] {E} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:08:27] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:27] {W} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:08:28] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:28] {E} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:08:29] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:29] {W} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:08:30] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:30] {E} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:08:31] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:31] {W} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:08:32] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:32] {E} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:08:33] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:33] {W} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:08:34] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:34] {E} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:08:35] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:35] {W} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:08:36] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:36] {E} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:08:37] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:37] {W} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:08:38] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:38] {E} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:08:39] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:39] {W} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:08:40] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:40] {E} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:08:41] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:41] {W} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:08:42] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:42] {E} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:08:43] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:43] {W} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:08:44] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:44] {E} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:08:45] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:45] {W} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:08:46] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:46] {E} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:08:47] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:47] {W} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:08:48] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:48] {E} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:08:49] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:49] {W} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:08:50] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:50] {E} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:08:51] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:51] {W} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:08:52] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:52] {E} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:08:53] {D} TestLogMonkeyDelegate: onMenu()
+(lmf1)[2017-12-04 16:08:53] {D} TestLogMonkeyView: onHide()
+(lmf1)[2017-12-04 16:08:53] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:53] {W} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:08:54] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:54] {E} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:08:54] {D} MenuInputDelegate: onMenuItem(item)
+(lmf1)[2017-12-04 16:08:54] {D} MenuInputDelegate.onMenuItem(item): item=(Symbol) item_exception
+(lmf1)[2017-12-04 16:08:54] {D} MenuInputDelegate: functionThatThrowsException
+(lmf1)[2017-12-04 16:08:54] {W} menu item selected: This is a test Exception
+(lmf1)[2017-12-04 16:08:54] {D} TestLogMonkeyView: onShow()
+(lmf1)[2017-12-04 16:08:54] {D} TestLogMonkeyView: onUpdate(dc)
+(lmf1)[2017-12-04 16:08:54] {D} TestLogMonkeyView.onUpdate(dc): dc=(Object) Obj: 160
+(lmf1)[2017-12-04 16:08:54] {D} TestLogMonkeyView: onUpdate(dc)
+(lmf1)[2017-12-04 16:08:54] {D} TestLogMonkeyView.onUpdate(dc): dc=(Object) Obj: 160
+(lmf1)[2017-12-04 16:08:55] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:55] {W} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:08:56] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:56] {E} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:08:57] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:57] {W} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:08:58] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:58] {E} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:08:59] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:08:59] {W} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:09:00] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:00] {E} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:09:01] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:01] {W} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:09:02] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:02] {E} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:09:03] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:03] {W} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:09:04] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:04] {E} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:09:05] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:05] {W} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:09:06] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:06] {E} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:09:07] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:07] {W} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:09:08] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:08] {E} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:09:09] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:09] {W} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:09:10] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:10] {E} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:09:11] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:11] {W} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:09:12] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:12] {E} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:09:13] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:13] {W} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:09:13] {D} TestLogMonkeyDelegate: onMenu()
+(lmf1)[2017-12-04 16:09:13] {D} TestLogMonkeyView: onHide()
+(lmf1)[2017-12-04 16:09:14] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:14] {E} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:09:14] {D} MenuInputDelegate: onMenuItem(item)
+(lmf1)[2017-12-04 16:09:14] {D} MenuInputDelegate.onMenuItem(item): item=(Symbol) item_exception
+(lmf1)[2017-12-04 16:09:14] {D} MenuInputDelegate: functionThatThrowsException
+(lmf1)[2017-12-04 16:09:14] {E} menu item selected: This is a test Exception
+(lmf1)[2017-12-04 16:09:14] {D} TestLogMonkeyView: onShow()
+(lmf1)[2017-12-04 16:09:14] {D} TestLogMonkeyView: onUpdate(dc)
+(lmf1)[2017-12-04 16:09:14] {D} TestLogMonkeyView.onUpdate(dc): dc=(Object) Obj: 177
+(lmf1)[2017-12-04 16:09:14] {D} TestLogMonkeyView: onUpdate(dc)
+(lmf1)[2017-12-04 16:09:14] {D} TestLogMonkeyView.onUpdate(dc): dc=(Object) Obj: 177
+(lmf1)[2017-12-04 16:09:15] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:15] {W} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:09:16] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:16] {E} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:09:17] {D} TestLogMonkeyDelegate: onMenu()
+(lmf1)[2017-12-04 16:09:17] {D} TestLogMonkeyView: onHide()
+(lmf1)[2017-12-04 16:09:17] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:17] {W} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:09:18] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:18] {E} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:09:18] {D} MenuInputDelegate: onMenuItem(item)
+(lmf1)[2017-12-04 16:09:18] {D} MenuInputDelegate.onMenuItem(item): item=(Symbol) item_variable
+(lmf1)[2017-12-04 16:09:18] {W} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:09:18] {D} TestLogMonkeyView: onShow()
+(lmf1)[2017-12-04 16:09:18] {D} TestLogMonkeyView: onUpdate(dc)
+(lmf1)[2017-12-04 16:09:18] {D} TestLogMonkeyView.onUpdate(dc): dc=(Object) Obj: 160
+(lmf1)[2017-12-04 16:09:18] {D} TestLogMonkeyView: onUpdate(dc)
+(lmf1)[2017-12-04 16:09:18] {D} TestLogMonkeyView.onUpdate(dc): dc=(Object) Obj: 160
+(lmf1)[2017-12-04 16:09:19] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:19] {W} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:09:20] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:20] {E} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:09:21] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:21] {W} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:09:22] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:22] {E} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:09:23] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:23] {W} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:09:24] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:24] {E} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:09:25] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:25] {W} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:09:26] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:26] {E} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:09:27] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:27] {W} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:09:28] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:28] {E} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:09:29] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:29] {W} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:09:30] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:30] {E} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:09:31] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:31] {W} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:09:32] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:32] {E} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:09:33] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:33] {W} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:09:34] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:34] {E} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:09:35] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:35] {W} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:09:36] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:36] {E} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:09:37] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:37] {W} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:09:38] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:38] {E} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:09:39] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:39] {W} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:09:40] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:40] {E} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:09:41] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:41] {W} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:09:42] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:42] {E} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:09:43] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:43] {W} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:09:44] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:44] {E} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:09:45] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:45] {W} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:09:46] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:46] {E} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:09:47] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:47] {W} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:09:48] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:48] {E} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:09:49] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:49] {W} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:09:50] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:50] {E} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:09:51] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:51] {W} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:09:52] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:52] {E} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:09:53] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:53] {W} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:09:54] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:54] {E} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:09:55] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:55] {W} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:09:56] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:56] {E} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:09:57] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:57] {W} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:09:58] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:58] {E} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:09:59] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:09:59] {W} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:10:00] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:00] {E} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:10:01] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:01] {W} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:10:02] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:02] {E} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:10:03] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:03] {W} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:10:04] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:04] {E} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:10:05] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:05] {W} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:10:06] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:06] {E} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:10:07] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:07] {W} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:10:08] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:08] {E} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:10:09] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:09] {W} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:10:10] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:10] {E} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:10:11] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:11] {W} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:10:12] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:12] {E} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:10:13] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:13] {W} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:10:14] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:14] {E} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:10:15] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:15] {W} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:10:16] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:16] {E} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:10:17] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:17] {W} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:10:18] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:18] {E} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:10:19] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:19] {W} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:10:20] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:20] {E} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:10:21] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:21] {W} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:10:22] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:22] {E} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:10:23] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:23] {W} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:10:24] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:24] {E} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:10:25] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:25] {W} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:10:26] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:26] {E} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:10:27] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:27] {W} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:10:28] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:28] {E} menu item selected: aLocalVar=(Boolean) true
+(lmf1)[2017-12-04 16:10:29] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:29] {W} menu item selected: aLocalVar=(Number) 1
+(lmf1)[2017-12-04 16:10:30] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:30] {E} menu item selected: aLocalVar=(Float) 2.000000
+(lmf1)[2017-12-04 16:10:31] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:31] {W} menu item selected: aLocalVar=(Double) 3.141500
+(lmf1)[2017-12-04 16:10:32] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:32] {E} menu item selected: aLocalVar=(Long) 4
+(lmf1)[2017-12-04 16:10:33] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:33] {W} menu item selected: aLocalVar=(null) null
+(lmf1)[2017-12-04 16:10:34] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:34] {E} menu item selected: aLocalVar=(String) a local string value
+(lmf1)[2017-12-04 16:10:35] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:35] {W} menu item selected: aLocalVar=(Array) [a, b, c, 1, 2.000000, 3]
+(lmf1)[2017-12-04 16:10:36] {D} TestLogMonkeyApp: timerCallback()
+(lmf1)[2017-12-04 16:10:36] {E} menu item selected: aLocalVar=(Dictionary) {symbol (61)=>1, another key=>false}
+(lmf1)[2017-12-04 16:10:37] {D} TestLogMonkeyView: onHide()
