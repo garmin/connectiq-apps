@@ -1,4 +1,4 @@
-/connectiq-apps
+# /connectiq-apps
 _A collection of Connect IQ apps and libraries_
 
 ------------------
