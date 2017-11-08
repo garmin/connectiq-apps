@@ -4,13 +4,13 @@ _A collection of Connect IQ apps and libraries_
 ------------------
 
 ## Purpose
-This repo is officially maintained by the Garmin&reg; Connect IQ team. We are happy to have you here. It is our hope that this repository will extend the  resources available to our developers to help them build exciting new content!
+This repo is officially maintained by the Garmin&reg; Connect IQ team. We are happy to have you here. It is our hope that this repository will extend the resources available to our developers to help them build exciting new content!
 
 ----------------------
 
 ## What's in the Repo?
 
-This repo contains several resources for developers to help in the development process including examples and Garmin Monkey Barrel Code libraries:
+This repo contains several resources for developers to help in the development process including a small set of reference examples and Garmin Monkey Barrel Code libraries.
 
 **Barrels**
 :   Monkey Barrels are the Connect IQ answer to libraries. They are a way for developers to create custom Monkey C libraries containing source code and resource information that can be easily shared across Connect IQ Projects.
@@ -45,7 +45,7 @@ Our main form of communication is through the official [Connect IQ forums]. In o
 
 The forum includes several spaces for our developer community:
 
-* [Connect IQ General Forum][Connect IQ forums]: This is the main forum and is the firs stop for help and developer discussions.
+* [Connect IQ General Forum][Connect IQ forums]: This is the main forum and is the first stop for help and developer discussions.
 * [Connect IQ News & Announcements]: Keep up to date with the latest official SDK news from the Connect IQ team.
 * [Connect IQ App Ideas]: If you have an idea for an app or are looking for a new idea for an app, here is the place to look.
 * [Connect IQ Showcase]: This forum is a dedicated place for developers to field questions and issues with thier user-base.
