@@ -51,13 +51,14 @@ LogMonkey makes use of `Toybox.System.println()` calls to log information. This 
 ### Output Format
 
 LogMonkey generates messages in the following format: `(log format version)[timestamp] {log level} tag: message`. Details for each block of this format are given in the table below.
-| Block              | Format                                                 | Description                                                                         |
-| ------------------ | ------------------------------------------------------ | ----------------------------------------------------------------------------------- |
-| log format version | A value beginning with "lfm" then a number             | The output format version of the line in the log.                                   |
-| timestamp          | MM-DD-YYYY HH:MM:SS                                    | A time stamp of when the log entry occurred.                                        |
-| log level          | Regular Expression: `[a-zA-Z0-9_]`                     | The priority level of the log entry. LogMonkey supports values of `D`, `W` and `E`. |
-| tag                | A string containing any character except a colon (`:`) | A brief tag value that can be used to quickly filter and find specific log entries. |
-| message            | Any string value                                       | The detailed message being recorded in the log entry.                               |
+
+| Block              | Format                                                    | Description                                                                         |
+| ------------------ | --------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| log format version | A value beginning with "lfm" then a number                | The output format version of the line in the log.                                   |
+| timestamp          | MM-DD-YYYY HH:MM:SS                                       | A time stamp of when the log entry occurred.                                        |
+| log level          | A string containing only letters, numbers and underscores | The priority level of the log entry. LogMonkey supports values of `D`, `W` and `E`. |
+| tag                | A string containing any character except a colon (`:`)    | A brief tag value that can be used to quickly filter and find specific log entries. |
+| message            | Any string value                                          | The detailed message being recorded in the log entry.                               |
 
 ### Viewing Logs in Eclipse
 
