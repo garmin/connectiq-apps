@@ -55,7 +55,7 @@ LogMonkey generates messages in the following format: `(log format version)[time
 | Block              | Format                                                    | Description                                                                         |
 | ------------------ | --------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | log format version | A value beginning with "lfm" then a number                | The output format version of the line in the log.                                   |
-| timestamp          | MM-DD-YYYY HH:MM:SS                                       | A time stamp of when the log entry occurred.                                        |
+| timestamp          | YYYY-MM-DD HH:MM:SS                                       | A time stamp of when the log entry occurred.                                        |
 | log level          | A string containing only letters, numbers and underscores | The priority level of the log entry. LogMonkey supports values of `D`, `W` and `E`. |
 | tag                | A string containing any character except a colon (`:`)    | A brief tag value that can be used to quickly filter and find specific log entries. |
 | message            | Any string value                                          | The detailed message being recorded in the log entry.                               |
@@ -67,7 +67,7 @@ When you run an app via Eclipse the run console will show the output of log call
 
 ### Viewing Logs on a Device
 
-When running your app on a physical device the log statements get added to the app's log file. The app's log file can be viewed by plugging your device into your computer and navigating to `<device root>/GARMIN/APPS/LOGS`. The app log file will match the name of the app prg file (located in `<device root>/GARMIN/APPS`.
+When running your app on a physical device the log statements get added to the app's log file. The app's log file can be viewed by plugging your device into your computer and navigating to `<device root>/GARMIN/APPS/LOGS`. The app log file will match the name of the app prg file (located in `<device root>/GARMIN/APPS`. If the app log file doesn't already exist you will need to create it as it will not get automatically generated.
 
 ### Parsing Logs
 

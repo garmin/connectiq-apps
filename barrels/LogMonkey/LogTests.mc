@@ -187,6 +187,23 @@ module LogMonkey {
             return true;
         }
 
+        (:test)
+        function testLogPrefix(logger) {
+            var mockSys = new MockSys();
+
+            var log = new $.LogMonkey.Logger("I", mockSys);
+            log.logVariable("i", "iI", logger);
+            log = null;
+
+            var logOutput = mockSys.getStreamContents();
+            var prefix = "(lmf1)[";
+
+            // this assert may have to change when the version changes
+            // verify the version happens at the front
+            Test.assertMessage(logOutput.find(prefix) == 0, "Prefix '" + prefix + "' not found in '" + logOutput + "'");
+            return true;
+        }
+
         //! Tests the general log output from the LogMonkey.Logger class.
         (:test)
         function testLogOutput(logger) {
