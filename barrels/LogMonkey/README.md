@@ -3,6 +3,7 @@
 The LogMonkey barrel provides logging utilities to aid in developing and debugging Connect IQ applications.
 
 Information can be logged to certain log levels via the available APIs. The supported log levels are:
+
 | API             | Purpose                                                |
 | --------------- | ------------------------------------------------------ |
 | LogMonkey.Debug | General debugging information                          |
