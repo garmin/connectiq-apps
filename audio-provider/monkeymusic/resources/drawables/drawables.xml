@@ -1,0 +1,10 @@
+<drawables>
+    <bitmap id="logo" filename="logo.png" dithering="none"/>
+    <bitmap id="logo_with_palette" filename="logo.png" dithering="none">
+        <palette>
+            <color>000000</color>
+            <color>8B4513</color>
+            <color>F5DEB3</color>
+        </palette>
+    </bitmap>
+</drawables>
