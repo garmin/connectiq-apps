@@ -1,0 +1,6 @@
+<strings>
+    <string id="AppName">MonkeyMusic</string>
+    <string id="fetchingSongs">Fetching Songs</string>
+    <string id="syncMenuTitle">Choose Songs</string>
+    <string id="playbackMenuTitle">Choose Songs</string>
+</strings>
