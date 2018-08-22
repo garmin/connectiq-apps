@@ -1,12 +1,8 @@
 # /connectiq-apps
 _A collection of Connect IQ apps and libraries_
 
----
-
 ## Purpose
 This repo is officially maintained by the Garmin&reg; Connect IQ team. We are happy to have you here. It is our hope that this repository will extend the resources available to our developers to help them build exciting new content!
-
----
 
 ## What's in the Repo?
 This repo contains several resources for developers to help in the development process including a small set of reference examples and Garmin Monkey Barrel Code libraries.
@@ -27,8 +23,6 @@ This repo contains several resources for developers to help in the development p
 :   At-a-glance apps that are readily accessible from the watch face or device home screen. Widgets automatically close after a period of inactivity
 
 To find out more about the Connect IQ Application Types type please see the <a href="https://developer.garmin.com/connect-iq/programmers-guide/application-types/">Application Types</a> chapter in the Programmer's Guide.
-
----
 
 ## Other Useful Info
 
