@@ -1,0 +1,36 @@
+<!--
+ Copyright 2015 by Garmin Ltd. or its subsidiaries.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <layouts>
+		<layout id="RoundViewLayout">
+		    <drawable id="black_background" />
+		    <label id="title" x="center" y="22" font="Gfx.FONT_LARGE" color="Gfx.COLOR_GREEN" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		    <label id="status" x="center" y="55" font="Gfx.FONT_TINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		    
+		    <!-- Let's try making a table. It will just be 2x4. The rows will have the player's score then their name. -->
+		    <label id="player1_score" x="47" y="72"  font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+		    <label id="player1_name"  x="52" y="72"  font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="player2_score" x="47" y="97"  font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+		    <label id="player2_name"  x="52" y="97"  font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="player3_score" x="47" y="122"  font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+		    <label id="player3_name"  x="52" y="122"  font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="player4_score" x="47" y="147" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+		    <label id="player4_name"  x="52" y="147" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    
+		    <label id="end_round_prompt" x="center" y="170" font="Gfx.FONT_TINY" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		</layout>
+    </layouts>
+</resources>
