@@ -1,3 +1,0 @@
-<layout id="MainLayout">
-    <label id="MainLabel" x="center" y="center" text="@Strings.prompt" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" />
-</layout>
