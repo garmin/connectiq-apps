@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.garmin.android.apps.samples.disgolf"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".CourseSetupActivity"
+            android:label="@string/course_action_bar_title" >
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayerSetupActivity"
+            android:label="@string/players_action_bar_title" >
+        </activity>
+        <activity
+            android:name=".SendRoundToDeviceActivity"
+            android:label="@string/send_round_action_bar_title" >
+        </activity>
+        <activity
+            android:name=".ScorecardActivity"
+            android:label="@string/scorecard_title" >
+        </activity>
+    </application>
+
+</manifest>
