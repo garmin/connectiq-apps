@@ -7,14 +7,14 @@ This repo is officially maintained by the Garmin&reg; Connect IQ team. We are ha
 ## What's in the Repo?
 This repo contains several resources for developers to help in the development process including a small set of reference examples and Garmin Monkey Barrel Code libraries.
 
-**Apps**
-:    More capable than the other app types, device apps can implement third party activities and provide additional functionality that is not otherwise addressed by the other available app types.
-
 **Barrels**
 :   Monkey Barrels are a way for developers to create custom Monkey C libraries containing source code and resource information that can be easily shared across Connect IQ Projects. To find out more about Monkey Barrels, please see the <a href="https://developer.garmin.com/connect-iq/programmers-guide/shareable-libraries/">Shareable Libraries</a> chapter in the Programmer's Guide.
 
 **Data Fields**
 :   Apps that run within the native activities that allow developers to compute values based off of the current activity, such as running, biking, etc.
+
+**Device Apps**
+:    More capable than the other app types, device apps can implement third party activities and provide additional functionality that is not otherwise addressed by the other available app types.
 
 **Watch Faces**
 :   Low power apps that replace the main watch face and are the home screen on wearable devices.
