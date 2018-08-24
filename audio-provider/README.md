@@ -3,5 +3,5 @@ Audio Content Provider Apps are used directly by the device media player to acqu
 
 ## Audio Content Provider App Index
 
-### MonkeyMusic
-[MonkeyMusic](https://github.com/garmin/connectiq-apps/tree/master/audio-provider/monkeymusic) is a basic audio content provider app implementation and includes a simple python-based media server.
+### **[MonkeyMusic](https://github.com/garmin/connectiq-apps/tree/master/audio-provider/monkeymusic)**
+MonkeyMusic is a basic audio content provider app implementation and includes a simple python-based media server.
