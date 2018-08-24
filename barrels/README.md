@@ -6,8 +6,8 @@ To include a Monkey Barrel in your project you need to declare a dependency on t
 
 ## Barrel Index
 
-### LogMonkey
-The [LogMonkey barrel](https://github.com/garmin/connectiq-apps/tree/master/barrels/LogMonkey) provides some basic logging utilities to aid in developing Connect IQ apps. Including LogMonkey within an app and building the app in release mode will automatically minimize the compiled output to save run time memory.
+### **[LogMonkey](https://github.com/garmin/connectiq-apps/tree/master/barrels/LogMonkey)**
+The LogMonkey barrel provides some basic logging utilities to aid in developing Connect IQ apps. Including LogMonkey within an app and building the app in release mode will automatically minimize the compiled output to save run time memory.
 
-### Semicircles
-The [Semicircles barrel](https://github.com/garmin/connectiq-apps/tree/master/barrels/Semicircles) provides an abstract coordinate type that speeds up position computation, does not use Position module, and does not require the Position permission. This class also includes a fast method to calculate the distance between two points.
+### **[Semicircles](https://github.com/garmin/connectiq-apps/tree/master/barrels/Semicircles)**
+The Semicircles barrel provides an abstract coordinate type that speeds up position computation, does not use Position module, and does not require the Position permission. This class also includes a fast method to calculate the distance between two points.
