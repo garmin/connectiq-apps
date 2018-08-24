@@ -2,7 +2,7 @@
 _A collection of Connect IQ apps and libraries_
 
 ## Purpose
-This repo is officially maintained by the Garmin&reg; Connect IQ team. We are happy to have you here. It is our hope that this repository will extend the resources available to our developers to help them build exciting new content!
+This repo is officially maintained by the Garmin Connect IQ team. We are happy to have you here. It is our hope that this repository will extend the resources available to our developers to help them build exciting new content!
 
 ## What's in the Repo?
 This repo contains several resources for developers to help in the development process including a small set of reference examples and Garmin Monkey Barrel Code libraries.
