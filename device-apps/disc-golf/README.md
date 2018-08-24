@@ -2,7 +2,7 @@
 
 ![Disc Golf IQ logo](disc-golf-iq/resources-fenix3/drawables/images/launcher_icon.png "Disc Golf IQ logo")
 
-A simple scoring app for disc golf. Use the partner app to create a course and send it to your watch. You can then score your round on the watch and send the completed scorecard back to your phone.
+A simple scoring app for disc golf. Use the companion mobile app to create a course and send it to your watch. You can then score your round on the watch and send the completed scorecard back to your phone.
 
 ### Store Links
 [Connect IQ Store](https://apps.garmin.com/en-US/apps/8a22bbaa-2612-4084-b062-1b6d4adfa181)
