@@ -1,2 +1,2 @@
 # Connect IQ Data Fields
-Data fields allow a user to customize and add features built-in activities like Run, Bike, and Swim.
+Data fields are apps that run within the native activities that allow developers to compute values based off of the current activity, such as running, biking, etc.
