@@ -15,4 +15,4 @@ To convert from radians to semicircles, use the following formula:
 
  `angleInSemicircles = (angleInRadians * 0x80000000) / PI`
 
-This class also includes a function to compute distance between two points, trading accuracy for speed of computation.
+This class also includes a fast method to calculate the distance between two points.
