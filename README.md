@@ -5,19 +5,22 @@ _A collection of Connect IQ apps and libraries_
 This repo is officially maintained by the Garmin Connect IQ team, containing a small set of reference examples and monkey barrel code libraries. It is our hope that this repository will extend the resources available to our developers to help them build exciting new content!
 
 ## What's in the Repo?
-**Barrels**
+**[Audio Content Provider Apps](https://github.com/garmin/connectiq-apps/tree/master/audio-provider)**
+: Special apps that are used directly by the device media player to acquire and play audio content.
+
+**[Barrels](https://github.com/garmin/connectiq-apps/tree/master/barrels)**
 :   Monkey Barrels are a way for developers to create custom Monkey C libraries containing source code and resource information that can be easily shared across Connect IQ Projects. To find out more about Monkey Barrels, please see the <a href="https://developer.garmin.com/connect-iq/programmers-guide/shareable-libraries/">Shareable Libraries</a> chapter in the Programmer's Guide.
 
-**Data Fields**
+**[Data Fields](https://github.com/garmin/connectiq-apps/tree/master/datafields)**
 :   Apps that run within the native activities that allow developers to compute values based off of the current activity, such as running, biking, etc.
 
-**Device Apps**
+**[Device Apps](https://github.com/garmin/connectiq-apps/tree/master/device-apps)**
 :    More capable than the other app types, device apps can implement third party activities and provide additional functionality that is not otherwise addressed by the other available app types.
 
-**Watch Faces**
+**[Watch Faces](https://github.com/garmin/connectiq-apps/tree/master/watchfaces)**
 :   Low power apps that replace the main watch face and are the home screen on wearable devices.
 
-**Widgets**
+**[Widgets](https://github.com/garmin/connectiq-apps/tree/master/widgets)**
 :   At-a-glance apps that are readily accessible from the watch face or device home screen. Widgets automatically close after a period of inactivity
 
 To find out more about the Connect IQ Application Types type please see the <a href="https://developer.garmin.com/connect-iq/programmers-guide/application-types/">Application Types</a> chapter in the Programmer's Guide.
