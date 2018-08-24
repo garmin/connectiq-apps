@@ -1,4 +1,7 @@
 # Connect IQ Widgets
-A widget provides a user with important information at a glance.
+Widgets are at-a-glance apps that are readily accessible from the watch face or device home screen. Widgets automatically close after a period of inactivity
 
-For an overview of what you can build check out [this page](http://developer.garmin.com/connect-iq/what-you-can-build/) on the [Garmin Developer website](http://developer.garmin.com/).
+## Widget Index
+
+### Strava API
+A simple widget that queries your four week workout summary from Strava using the Connect IQ OAUTH system.
