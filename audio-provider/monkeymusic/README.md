@@ -49,7 +49,7 @@ Note: This assumes that you have the Eclipse IDE installed and configured for Co
 
 ### Running the Client
 1. Open Eclipse and import the MonkeyMusic project.
-2. Create a Run Configuration for the MonkeyMusic project using the `Forerunner 645M` device.
+2. Create a Run Configuration for the MonkeyMusic project using the _Forerunner 645M_ device.
 3. Run the sample in the Connect IQ simulator.
 4. Choose _Configure Sync_ from the menu.
 5. Select one or more tracks from the displayed list of downloadable tracks.
