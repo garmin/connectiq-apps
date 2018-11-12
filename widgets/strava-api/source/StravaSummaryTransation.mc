@@ -7,6 +7,7 @@
 using Toybox.Communications;
 using Toybox.Application;
 using Toybox.System;
+using Toybox.WatchUi;
 
 // TransactionDelegate class that handles response to the athlete's stats summary
 class StravaSummaryDelegate extends TransactionDelegate {
@@ -22,7 +23,7 @@ class StravaSummaryDelegate extends TransactionDelegate {
     function handleError(code) {
         var msg = WatchUi.loadResource( Rez.Strings.error );
         msg += code;
-        Ui.switchToView(new ErrorView(msg), null, Ui.SLIDE_IMMEDIATE);
+        WatchUi.switchToView(new ErrorView(msg), null, WatchUi.SLIDE_IMMEDIATE);
     }
 
     // Response handler.
