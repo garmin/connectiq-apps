@@ -28,7 +28,7 @@ To find out more about the Connect IQ Application Types type please see the <a h
 ## Other Useful Info
 
 ### Forums:
-The [Connect IQ forum] provides access to our our community of amazing developers, as well as the ear of the Connect IQ team, and includes several spaces for interaction:
+The [Connect IQ forum] provides access to our community of amazing developers, as well as the ear of the Connect IQ team, and includes several spaces for interaction:
 
 * [Connect IQ General Forum][Connect IQ Forum]: This is the main forum, and is the first stop for help and developer discussions.
 * [Connect IQ News & Announcements]: Keep up to date with the latest official SDK news from the Connect IQ team.
