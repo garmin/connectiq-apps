@@ -42,7 +42,6 @@ Please be sure to refer to the <a href="https://forums.garmin.com/forum/develope
 * [Connect IQ Programmer's Guide]: This guide covers first time setup and discusses many key Connect IQ concepts.
 * [Connect IQ User Experience Guide]: A supplemental guide that contains suggestions for getting the most out of your apps on wearable products.
 * [Connect IQ API Documentation]: Full technical documentation of Connect IQ APIs.
-* [Garmin Developer Blog]: Hear the latest news in the Garmin developer community.
 * [Garmin Connect]: Garmin Connect provides users with a dashboard and tools for review their fitness activites, including custom data from Connect IQ apps.
 * [Garmin Product Support]: The official Garmin product support online hub for basic device troubleshooting and non-Connect IQ related issues with Garmin products.
 * [garmin.com]: Your one-stop place for all things Garmin.
@@ -54,16 +53,15 @@ Thank you!
 
 -The Connect IQ Team
 
-[Connect IQ Forum]: https://forums.garmin.com/forum/developers/connect-iq
-[Connect IQ News & Announcements]: https://forums.garmin.com/forum/developers/connect-iq/connect-iq-news-announcements
-[Connect IQ App Ideas]: https://forums.garmin.com/forum/developers/connect-iq/connect-iq-app-ideas
-[Connect IQ Showcase]: https://forums.garmin.com/forum/developers/connect-iq/connect-iq-showcase
-[Connect IQ Bug Reports]: https://forums.garmin.com/forum/developers/connect-iq/connect-iq-bug-reports
+[Connect IQ Forum]: https://forums.garmin.com/developer/connect-iq/
+[Connect IQ News & Announcements]: https://forums.garmin.com/developer/connect-iq/b/news-announcements
+[Connect IQ App Ideas]: https://forums.garmin.com/developer/connect-iq/f/app-ideas
+[Connect IQ Showcase]: https://forums.garmin.com/developer/connect-iq/f/showcase
+[Connect IQ Bug Reports]: https://forums.garmin.com/developer/connect-iq/i/bug-reports
 [Connect IQ Programmer's Guide]: https://developer.garmin.com/connect-iq/programmers-guide/
 [Connect IQ User Experience Guide]: https://developer.garmin.com/connect-iq/user-experience-guide/
 [Connect IQ API Documentation]: https://developer.garmin.com/connect-iq/api-docs/
-[Garmin Developer Blog]: https://developer.garmin.com/blog
 [Garmin Connect]: https://connect.garmin.com
 [Garmin Product Support]: https://support.garmin.com/
 [garmin.com]: https://www.garmin.com/
-[Third-Party Tutorials and Open Source Apps]: https://forums.garmin.com/forum/developers/connect-iq/154074-overview-of-connect-iq-apps-accompanied-with-source-code
+[Third-Party Tutorials and Open Source Apps]: https://forums.garmin.com/developer/connect-iq/f/discussion/7961/overview-of-connect-iq-apps-accompanied-with-source-code
