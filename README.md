@@ -35,8 +35,9 @@ The [Connect IQ forum] provides access to our community of amazing developers, a
 * [Connect IQ App Ideas]: Post app ideas, or if you're a developer, find potential projects to work on.
 * [Connect IQ Showcase]: A place for developers to field questions about their apps and and address issues reported by their user base.
 * [Connect IQ Bug Reports]: This is where we talk about what's broken and how we plan to fix it.
+* [Connect IQ Wiki]: A wiki hosted on the forums that contains FAQs and other useful info.
 
-Please be sure to refer to the <a href="https://forums.garmin.com/forum/developers/connect-iq/1265032-forum-rules">forum rules</a> when using the general forums and the <a href="https://forums.garmin.com/forum/developers/connect-iq/connect-iq-bug-reports/147455-bug-reports-forum-rules">bug reports forum rules</a> when posting to the bug reports forum.
+Please be sure to refer to the <a href="https://forums.garmin.com/developer/connect-iq/w/wiki/2/forum-rules">forum rules</a> when using the general forums and the <a href="https://forums.garmin.com/developer/connect-iq/w/wiki/5/bug-reports-faq">bug reports forum rules</a> when posting to the bug reports forum.
 
 ### Helpful Links:
 * [Connect IQ Programmer's Guide]: This guide covers first time setup and discusses many key Connect IQ concepts.
@@ -58,6 +59,7 @@ Thank you!
 [Connect IQ App Ideas]: https://forums.garmin.com/developer/connect-iq/f/app-ideas
 [Connect IQ Showcase]: https://forums.garmin.com/developer/connect-iq/f/showcase
 [Connect IQ Bug Reports]: https://forums.garmin.com/developer/connect-iq/i/bug-reports
+[Connect IQ Wiki]: https://forums.garmin.com/developer/connect-iq/w/wiki
 [Connect IQ Programmer's Guide]: https://developer.garmin.com/connect-iq/programmers-guide/
 [Connect IQ User Experience Guide]: https://developer.garmin.com/connect-iq/user-experience-guide/
 [Connect IQ API Documentation]: https://developer.garmin.com/connect-iq/api-docs/
