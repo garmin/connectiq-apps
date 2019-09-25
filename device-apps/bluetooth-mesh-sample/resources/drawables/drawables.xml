@@ -1,0 +1,6 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="LightBulbUnknown" filename="../light_bulb_unknown.png"/>
+    <bitmap id="LightBulbOn" filename="../light_bulb_on.png"/>
+    <bitmap id="LightBulbOff" filename="../light_bulb_off.png"/>
+</drawables>

@@ -1,0 +1,4 @@
+<layout id="MainLayout">
+    <label id="text_value" x="center" y="40%" justification="Graphics.TEXT_JUSTIFY_CENTER" color="0xFFFFFF" text="Disconnected"></label>
+    <label id="error_value" x="center" y="60%" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" color="0xFFFFFF" text="Disconnected"></label>
+</layout>
