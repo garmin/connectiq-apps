@@ -1,0 +1,6 @@
+<strings>
+    <string id="AppName">LidarTheremin</string>
+    <string id="NoDevice">No Device</string>
+    <string id="NoMeasurement">No Measurement</string>
+    <string id="MeasurementFailed">Measurement Failed</string>
+</strings>
