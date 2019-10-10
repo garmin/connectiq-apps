@@ -1,0 +1,9 @@
+<strings>
+    <string id="AppName">Bluetooth Mesh Thingy</string>
+    <string id="ProvisionPickerTitle">Enter OOB Input</string>
+    <string id="meshNetworkAddress">Mesh Network Address</string>
+    <string id="ivIndex">IV Index</string>
+    <string id="seqNum">Sequence Number</string>
+    <string id="addNetKey">Add a new NetKey</string>
+    <string id="addAppKey">Add a new AppKey</string>
+</strings>
