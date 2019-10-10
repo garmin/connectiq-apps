@@ -11,3 +11,6 @@ The LogMonkey barrel provides some basic logging utilities to aid in developing 
 
 ### **[Semicircles](https://github.com/garmin/connectiq-apps/tree/master/barrels/Semicircles)**
 The Semicircles barrel provides an abstract coordinate type that speeds up position computation, does not use Position module, and does not require the Position permission. This class also includes a fast method to calculate the distance between two points.
+
+### **[BluetoothMeshBarrel](https://github.com/connectiq-apps/tree/master/barrels/BluetoothMeshBarrel)**
+This Bluetooth Mesh barrel provides an abstract library for connecting your Connect IQ app to a Bluetooth Mesh network. See the [blog post](https://forums.garmin.com/developer/connect-iq/b/news-announcements/posts/bluetooth-mesh-networking-with-connect-iq) for details.

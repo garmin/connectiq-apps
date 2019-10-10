@@ -1,0 +1,5 @@
+<layout id="ControlLayout">
+    <bitmap id="icon" x="center" y="40%" filename="../light_bulb_unknown.png"></bitmap>
+    <label id="device_text" x="center" y="80%" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" color="0xFFFFFF" text="Unknown"></label>
+    <label id="state_text" x="center" y="90%" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" color="0xFFFFFF" text="Unknown"></label>
+</layout>
