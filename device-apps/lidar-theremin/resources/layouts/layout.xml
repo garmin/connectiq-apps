@@ -1,0 +1,3 @@
+<layout id="MainLayout">
+    <label id="DistanceLabel" x="center" y="center" text="No device..." color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+</layout>
