@@ -61,7 +61,7 @@ class DanceDanceGarminView extends WatchUi.WatchFace {
         dc.clear();
         // Draw the time in the middle
         dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(width / 2, height / 2, Graphics.FONT_NUMBER_HOT, timeString,
+        dc.drawText(width / 2, height / 2, Graphics.FONT_NUMBER_MEDIUM, timeString,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
