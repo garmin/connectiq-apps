@@ -1,0 +1,4 @@
+<layout id="WatchFace">
+    <drawable id="background"/>
+    <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+</layout>

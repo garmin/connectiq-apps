@@ -1,0 +1,7 @@
+<strings>
+    <string id="AppName">DanceDanceGarmin</string>
+    <string id="StepGoal">STEP\nGOAL</string>
+    <string id="ActiveMinutesGoal">ACTIVE\nGOAL</string>
+    <string id="FloorsClimbedGoal">STAIRS\nGOAL</string>
+    <string id="GenericGoal">GOAL</string>
+</strings>
