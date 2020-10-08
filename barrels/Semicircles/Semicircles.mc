@@ -95,8 +95,7 @@ module Semicircles {
                     }
                     break;
                 case instanceof Semicircles.Coordinate:
-                    result[0] = value._lat;
-                    result[1] = value._lon;
+                    result = value.toSemicircles();
                     break;
                 case instanceof Lang.Array:
                     result[0] = value[0];
