@@ -1,0 +1,2 @@
+# GenericChannelHeartRateBarrel
+This barrel demonstrates how to use the Connect IQ Generic ANT Channel module to connect to an ANT+ Heart Rate monitor. This project can be adapted to work with any ANT or ANT+ device. See the [Generic ANT+ Heart Rate Data Field](https://github.com/garmin/connectiq-apps/tree/master/datafields/GenericAntPlusHeartRateField) for an example project that uses this barrel.

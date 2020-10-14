@@ -1,0 +1,15 @@
+<resources>
+	<properties>
+		<property id="deviceNumber" type="number">0</property>
+		<property id="proximityPairing" type="boolean">false</property>
+	</properties>
+	
+    <settings>
+        <setting propertyKey="@Properties.deviceNumber" title="@Strings.ant_sensor_id">
+            <settingConfig type="numeric" min ="0"/>
+        </setting>
+         <setting propertyKey="@Properties.proximityPairing" title="@Strings.proximity_pairing">
+            <settingConfig type="boolean"/>
+        </setting>
+    </settings>
+</resources>

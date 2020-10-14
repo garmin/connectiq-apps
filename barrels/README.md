@@ -14,3 +14,6 @@ The Semicircles barrel provides an abstract coordinate type that speeds up posit
 
 ### **[BluetoothMeshBarrel](https://github.com/connectiq-apps/tree/master/barrels/BluetoothMeshBarrel)**
 This Bluetooth Mesh barrel provides an abstract library for connecting your Connect IQ app to a Bluetooth Mesh network. See the [blog post](https://forums.garmin.com/developer/connect-iq/b/news-announcements/posts/bluetooth-mesh-networking-with-connect-iq) for details.
+
+### **[GenericChannelHeartRateBarrel](https://github.com/connectiq-apps/tree/master/barrels/GenericChannelHeartRateBarrel)**
+This barrel demonstrates how to use the Connect IQ Generic ANT Channel module to connect to an ANT+ Heart Rate monitor. This project can be adapted to work with any ANT or ANT+ device. See the [Generic ANT+ Heart Rate Data Field](https://github.com/garmin/connectiq-apps/tree/master/datafields/GenericAntPlusHeartRateField) for an example project that uses this barrel.
