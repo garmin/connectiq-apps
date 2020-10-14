@@ -1,0 +1,13 @@
+<strings>
+    <string id="AppName">GenericAntPlusHeartRateField</string>
+	<string id="heart_rate">Heart Rate</string>
+	<string id="bpm">BPM</string>
+	<string id="hr_avg">Avg HR</string>
+	<string id="hr_min">Min HR</string>
+	<string id="hr_max">Max HR</string>
+	<string id="ant_sensor_id">ANT Sensor ID</string>
+	<string id="proximity_pairing">Proximity Pairing</string>
+	<string id="characterPickerDone">Done</string>
+	<string id="characterPickerBackspace">Del</string>
+</strings>
+

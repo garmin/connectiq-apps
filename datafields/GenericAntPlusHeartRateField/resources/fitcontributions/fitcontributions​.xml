@@ -1,0 +1,52 @@
+<fitContributions>
+		<fitField id="0" 
+			displayInChart="true" 
+			sortOrder = "0" 
+			precision="0"
+			chartTitle="@Strings.heart_rate" 
+			dataLabel="@Strings.heart_rate"
+			unitLabel="@Strings.bpm" 
+			fillColor="#FF0000" />
+		
+		<fitField id="1" 
+			displayInActivitySummary="true" 
+			sortOrder = "2" 
+			precision="0"
+			dataLabel="@Strings.hr_min"
+			unitLabel="@Strings.bpm" />
+		
+		<fitField id="2" 
+			displayInActivitySummary="true" 
+			sortOrder = "3" 
+			precision="0"
+			dataLabel="@Strings.hr_max"
+			unitLabel="@Strings.bpm" />
+			
+		<fitField id="3" 
+			displayInActivitySummary="true" 
+			sortOrder = "1" 
+			precision="0"
+			dataLabel="@Strings.hr_avg"
+			unitLabel="@Strings.bpm" />
+		
+		<fitField id="4" 
+			displayInActivityLaps="true" 
+			sortOrder = "5" 
+			precision="0"
+			dataLabel="@Strings.hr_min"
+			unitLabel="@Strings.bpm" />
+		
+		<fitField id="5" 
+			displayInActivityLaps="true" 
+			sortOrder = "6" 
+			precision="0"
+			dataLabel="@Strings.hr_max"
+			unitLabel="@Strings.bpm" />
+			
+		<fitField id="6" 
+			displayInActivityLaps="true" 
+			sortOrder = "4" 
+			precision="0"
+			dataLabel="@Strings.hr_avg" 
+			unitLabel="@Strings.bpm" />
+	</fitContributions>
