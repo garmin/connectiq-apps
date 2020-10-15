@@ -107,8 +107,8 @@ module GenericChannelHeartRateBarrel {
         // Sets the delegate handler for asynchronous sensor events
         // An application can only have 1 registered delegate. Subsequent calls to this function will override the current delegate.
         // Setting this to null will remove any registered delegate.
-        function setDelegate( hrSensorDelegate ) {
-            hrSensorDelegate = hrSensorDelegate;
+        function setDelegate( delegate ) {
+            hrSensorDelegate = delegate;
 
             if ( hrSensorDelegate != null ) {
                 onUpdateCallback = hrSensorDelegate.method(:onHeartRateSensorUpdate);
