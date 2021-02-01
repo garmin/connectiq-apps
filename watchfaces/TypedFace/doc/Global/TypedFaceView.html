@@ -1,0 +1,413 @@
+<!-- Header -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> $.TypedFaceView </title>
+
+    <link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="../css/common.css" type="text/css" charset="utf-8" />
+
+    <script type="text/javascript" charset="utf-8">
+      pathId = "$.TypedFaceView";
+      relpath = '../';
+    </script>
+    <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+ </head>
+
+ <body>
+<div class="nav_wrap">
+  <iframe id="nav" src="../class_list.html"></iframe>
+  <div id="resizer"></div>
+</div>
+
+<div id="main" tabindex="-1">
+<iframe id="search_frame" src="../class_list.html"></iframe>
+
+
+  <div id="content"><h1>Class: $.TypedFaceView</h1>
+
+  <!-- Inherits -->
+  <div class="box_info">
+    <dl>
+  <dt>Inherits:</dt>
+  <dd>
+    <span class="inheritName">WatchUi.WatchFace</span>
+    <ul class="fullTree">
+      <li class="next">
+  <div class='inline'>
+    WatchUi.WatchFace
+  </div>
+</li>
+<li class="next">
+  <div class='inline'>
+    <a href="../Global/TypedFaceView.html">TypedFaceView</a>
+  </div>
+</li>
+    </ul>
+    <a href="#" class="inheritanceTree">show all</a>
+  </dd>
+</dl>
+  </div>
+
+<h2>Overview</h2>
+<!-- Overview -->
+
+<!-- Description -->
+  <div class="docstring">
+    <div class="discussion">
+      <p>
+Main watch face view
+</p>
+
+
+    </div>
+  </div>
+
+
+
+
+<div class="tags">
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<h2>
+   Instance Method Summary
+   <small><a href="#" class="summary_toggle">collapse</a></small>
+</h2>
+<ul class="summary">
+<li class="public">
+
+      <span class="summary_signature">
+      <a href="#initialize-instance_function" title="initialize (Instance Function)"><strong>initialize</strong></a>()
+      </span>
+
+  <span class="summary_desc">
+    <div class="inline">
+<p>
+Constructor.
+</p>
+
+
+    </div>
+  </span>
+</li><li class="public">
+
+      <span class="summary_signature">
+      <a href="#onEnterSleep-instance_function" title="onEnterSleep (Instance Function)"><strong>onEnterSleep</strong></a>()
+      </span>
+
+  <span class="summary_desc">
+    <div class="inline">
+<p>
+Terminate any active timers and prepare for slow updates.
+</p>
+
+
+    </div>
+  </span>
+</li><li class="public">
+
+      <span class="summary_signature">
+      <a href="#onExitSleep-instance_function" title="onExitSleep (Instance Function)"><strong>onExitSleep</strong></a>()
+      </span>
+
+  <span class="summary_desc">
+    <div class="inline">
+<p>
+The user has just looked at their watch.
+</p>
+
+
+    </div>
+  </span>
+</li><li class="public">
+
+      <span class="summary_signature">
+      <a href="#onHide-instance_function" title="onHide (Instance Function)"><strong>onHide</strong></a>()
+      </span>
+
+  <span class="summary_desc">
+    <div class="inline">
+<p>
+Called when this View is removed from the screen.
+</p>
+
+
+    </div>
+  </span>
+</li><li class="public">
+
+      <span class="summary_signature">
+      <a href="#onLayout-instance_function" title="onLayout (Instance Function)"><strong>onLayout</strong></a>(dc as Dc)    as <b>Void</b>
+      </span>
+
+  <span class="summary_desc">
+    <div class="inline">
+<p>
+Load layout.
+</p>
+
+
+    </div>
+  </span>
+</li><li class="public">
+
+      <span class="summary_signature">
+      <a href="#onShow-instance_function" title="onShow (Instance Function)"><strong>onShow</strong></a>()    as <b>Void</b>
+      </span>
+
+  <span class="summary_desc">
+    <div class="inline">
+<p>
+Called when this View is brought to the foreground.
+</p>
+
+
+    </div>
+  </span>
+</li><li class="public">
+
+      <span class="summary_signature">
+      <a href="#onUpdate-instance_function" title="onUpdate (Instance Function)"><strong>onUpdate</strong></a>(dc as Dc)    as <b>Void</b>
+      </span>
+
+  <span class="summary_desc">
+    <div class="inline">
+<p>
+Update the view.
+</p>
+
+
+    </div>
+  </span>
+</li>
+</ul>
+
+
+ <div id="instance_method_details" class="method_details_list">
+  <h2>Instance Method Details</h2>
+<div class="method_details">
+  <h3 class="signature" id="initialize-instance_function">
+    <strong>initialize()</strong>
+  </h3>
+
+  <div class="docstring">
+    <div class="discussion">
+      <p>
+Constructor
+</p>
+
+
+    </div>
+  </div>
+
+  <div class="tags">
+
+
+
+
+
+
+
+  </div>
+</div><div class="method_details">
+  <h3 class="signature" id="onEnterSleep-instance_function">
+    <strong>onEnterSleep()</strong>
+  </h3>
+
+  <div class="docstring">
+    <div class="discussion">
+      <p>
+Terminate any active timers and prepare for slow updates.
+</p>
+
+
+    </div>
+  </div>
+
+  <div class="tags">
+
+
+
+
+
+
+
+  </div>
+</div><div class="method_details">
+  <h3 class="signature" id="onExitSleep-instance_function">
+    <strong>onExitSleep()</strong>
+  </h3>
+
+  <div class="docstring">
+    <div class="discussion">
+      <p>
+The user has just looked at their watch. Timers and animations may be started here.
+</p>
+
+
+    </div>
+  </div>
+
+  <div class="tags">
+
+
+
+
+
+
+
+  </div>
+</div><div class="method_details">
+  <h3 class="signature" id="onHide-instance_function">
+    <strong>onHide()</strong>
+  </h3>
+
+  <div class="docstring">
+    <div class="discussion">
+      <p>
+Called when this View is removed from the screen. Save the
+state of this View here. This includes freeing resources from
+memory.
+</p>
+
+
+    </div>
+  </div>
+
+  <div class="tags">
+
+
+
+
+
+
+
+  </div>
+</div><div class="method_details">
+  <h3 class="signature" id="onLayout-instance_function">
+    <strong>onLayout(dc as Dc)</strong> <span class='type'> as <b>Void</b></span>
+  </h3>
+
+  <div class="docstring">
+    <div class="discussion">
+      <p>
+Load layout
+</p>
+
+
+    </div>
+  </div>
+
+  <div class="tags">
+    <p class="tag_title">Parameters:</p>
+    <ul class="param">
+      <li>
+        <span class='name'>dc</span>
+        &mdash;
+        <div class='inline'>
+<p>
+Draw context
+</p>
+
+
+        </div>
+    </li>
+    </ul>
+
+
+
+
+
+
+
+  </div>
+</div><div class="method_details">
+  <h3 class="signature" id="onShow-instance_function">
+    <strong>onShow()</strong> <span class='type'> as <b>Void</b></span>
+  </h3>
+
+  <div class="docstring">
+    <div class="discussion">
+      <p>
+Called when this View is brought to the foreground. Restore
+the state of this View and prepare it to be shown. This includes
+loading resources into memory.
+</p>
+
+
+    </div>
+  </div>
+
+  <div class="tags">
+
+
+
+
+
+
+
+  </div>
+</div><div class="method_details">
+  <h3 class="signature" id="onUpdate-instance_function">
+    <strong>onUpdate(dc as Dc)</strong> <span class='type'> as <b>Void</b></span>
+  </h3>
+
+  <div class="docstring">
+    <div class="discussion">
+      <p>
+Update the view
+</p>
+
+
+    </div>
+  </div>
+
+  <div class="tags">
+    <p class="tag_title">Parameters:</p>
+    <ul class="param">
+      <li>
+        <span class='name'>dc</span>
+        &mdash;
+        <div class='inline'>
+<p>
+Draw context
+</p>
+
+
+        </div>
+    </li>
+    </ul>
+
+
+
+
+
+
+
+  </div>
+</div>
+</div>
+</div>
+
+<hr/>
+
+<p class="signature">
+Generated Feb 1, 2021 4:16:18 PM
+</p>
+
+</body>

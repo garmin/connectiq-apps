@@ -1,0 +1,58 @@
+<settings>
+
+    <setting propertyKey="@Properties.BackgroundColor" title="@Strings.BackgroundColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.ForegroundColor" title="@Strings.ForegroundColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Complication1" title="@Strings.Complication1">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Battery</listEntry>
+            <listEntry value="1">@Strings.Steps</listEntry>
+            <listEntry value="2">@Strings.Date</listEntry>
+            <listEntry value="3">@Strings.HeartRate</listEntry>
+            <listEntry value="4">@Strings.ActiveMinutes</listEntry>
+            <listEntry value="-1">@Strings.None</listEntry>            
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Complication2" title="@Strings.Complication2">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Battery</listEntry>
+            <listEntry value="1">@Strings.Steps</listEntry>
+            <listEntry value="2">@Strings.Date</listEntry>
+            <listEntry value="3">@Strings.HeartRate</listEntry>
+            <listEntry value="4">@Strings.ActiveMinutes</listEntry>
+            <listEntry value="-1">@Strings.None</listEntry>            
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Complication3" title="@Strings.Complication3">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Battery</listEntry>
+            <listEntry value="1">@Strings.Steps</listEntry>
+            <listEntry value="2">@Strings.Date</listEntry>
+            <listEntry value="3">@Strings.HeartRate</listEntry>
+            <listEntry value="4">@Strings.ActiveMinutes</listEntry>
+            <listEntry value="-1">@Strings.None</listEntry>              
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.MilitaryFormatTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+</settings>

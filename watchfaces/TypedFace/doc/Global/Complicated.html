@@ -1,0 +1,240 @@
+<!-- Header -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> $.Complicated </title>
+
+    <link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="../css/common.css" type="text/css" charset="utf-8" />
+
+    <script type="text/javascript" charset="utf-8">
+      pathId = "$.Complicated";
+      relpath = '../';
+    </script>
+    <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+ </head>
+
+ <body>
+<div class="nav_wrap">
+  <iframe id="nav" src="../class_list.html"></iframe>
+  <div id="resizer"></div>
+</div>
+
+<div id="main" tabindex="-1">
+<iframe id="search_frame" src="../class_list.html"></iframe>
+
+
+  <div id="content"><h1>Module: $.Complicated</h1>
+
+
+<h2>Overview</h2>
+<!-- Overview -->
+
+<!-- Description -->
+  <div class="docstring">
+    <div class="discussion">
+      <p>
+Module for all the complications
+Fun fact! Avril Lavigne's "Complicated" came out in 2002 and is now considered "Dad Rock". How does that make you feel?
+</p>
+
+
+    </div>
+  </div>
+
+
+
+
+<div class="tags">
+
+
+
+
+
+</div>
+
+
+
+<!-- Child Classes -->
+<h2>Classes Under Namespace</h2>
+<p class="children">
+<strong class="classes">Classes:</strong> <span class='type'><a href="../Global/Complicated/ActiveMinutes.html">ActiveMinutes</a></span>, <span class='type'><a href="../Global/Complicated/Battery.html">Battery</a></span>, <span class='type'><a href="../Global/Complicated/ComplicationDrawable.html">ComplicationDrawable</a></span>, <span class='type'><a href="../Global/Complicated/Date.html">Date</a></span>, <span class='type'><a href="../Global/Complicated/HeartRate.html">HeartRate</a></span>, <span class='type'><a href="../Global/Complicated/LabelModel.html">LabelModel</a></span>, <span class='type'><a href="../Global/Complicated/PercentModel.html">PercentModel</a></span>, <span class='type'><a href="../Global/Complicated/Steps.html">Steps</a></span>
+</p>
+
+
+<!-- Constants -->
+<h2>Constant Summary</h2>
+<dl class="constants">
+<h3><p>
+Enum of all available complications
+</p>
+
+</h3>
+<table class='enumTable'>
+  <tr>
+    <th class='enumTableHeader'>Name</th>
+    <th class='enumTableHeader'>Value</th>
+    <th class='enumTableHeader'>Since</th>
+    <th class='enumTableHeader'>Description</th>
+  </tr>
+  <tr class='enumTableOdd'>
+    <td class='enumTableCell'>COMPLICATED_BATTERY</td>
+      <td class='enumTableCell'>0</td>
+      <td class='enumTableCell'></td>
+      <td class='enumTableCell'></td>
+    </td>
+</tr><tr class='enumTableEven'>
+    <td class='enumTableCell'>COMPLICATED_STEPS</td>
+      <td class='enumTableCell'>1</td>
+      <td class='enumTableCell'></td>
+      <td class='enumTableCell'></td>
+    </td>
+</tr><tr class='enumTableOdd'>
+    <td class='enumTableCell'>COMPLICATED_DATE</td>
+      <td class='enumTableCell'>2</td>
+      <td class='enumTableCell'></td>
+      <td class='enumTableCell'></td>
+    </td>
+</tr><tr class='enumTableEven'>
+    <td class='enumTableCell'>COMPLICATED_HR</td>
+      <td class='enumTableCell'>3</td>
+      <td class='enumTableCell'></td>
+      <td class='enumTableCell'></td>
+    </td>
+</tr><tr class='enumTableOdd'>
+    <td class='enumTableCell'>COMPLICATED_ACTIVE_MINUTES_WEEK</td>
+      <td class='enumTableCell'>4</td>
+      <td class='enumTableCell'></td>
+      <td class='enumTableCell'></td>
+    </td>
+</tr>
+</table>
+</dl>
+
+<!-- Typedefs -->
+<h2>Typedef Summary</h2>
+<dl class="constants">
+<dt id="Model-named_type" class="">
+<h3 class="signature " id="Model-named_type">
+
+typedef Model as  as <span class='type'><a href="../Global/Complicated/PercentModel.html">PercentModel</a></span> or <span class='type'><a href="../Global/Complicated/LabelModel.html">LabelModel</a></span>
+
+</h3>
+
+
+
+<div class="tags">
+
+
+
+</div>
+
+</dt><dt id="ModelUpdater-named_type" class="">
+<h3 class="signature " id="ModelUpdater-named_type">
+
+typedef ModelUpdater as  as interface {<br/>function updateModel() as <span class='type'><a href="../Global/Complicated.html#Model-named_type">Model</a></span>;<br/>}
+
+</h3>
+
+
+
+<div class="tags">
+
+
+
+</div>
+
+</dt>
+</dl>
+
+
+<h2>
+   Instance Method Summary
+   <small><a href="#" class="summary_toggle">collapse</a></small>
+</h2>
+<ul class="summary">
+<li class="public">
+
+      <span class="summary_signature">
+      <a href="#getComplication-instance_function" title="getComplication (Instance Function)"><strong>getComplication</strong></a>(complication as <span class='type'><a href="../Global/Complicated.html#Complications-module">Complications</a></span> or Number)    as <span class='type'><a href="../Global/Complicated.html#ModelUpdater-named_type">ModelUpdater</a></span> or <b>Null</b>
+      </span>
+
+  <span class="summary_desc">
+    <div class="inline">
+<p>
+Return an updater based on the requested complication.
+</p>
+
+
+    </div>
+  </span>
+</li>
+</ul>
+
+
+ <div id="instance_method_details" class="method_details_list">
+  <h2>Instance Method Details</h2>
+<div class="method_details">
+  <h3 class="signature" id="getComplication-instance_function">
+    <strong>getComplication(complication as <span class='type'><a href="../Global/Complicated.html#Complications-module">Complications</a></span> or Number)</strong> <span class='type'> as <span class='type'><a href="../Global/Complicated.html#ModelUpdater-named_type">ModelUpdater</a></span> or <b>Null</b></span>
+  </h3>
+
+  <div class="docstring">
+    <div class="discussion">
+      <p>
+Return an updater based on the requested complication
+</p>
+
+
+    </div>
+  </div>
+
+  <div class="tags">
+    <p class="tag_title">Parameters:</p>
+    <ul class="param">
+      <li>
+        <span class='name'>complication</span>
+        &mdash;
+        <div class='inline'>
+<p>
+Complication requested
+</p>
+
+
+        </div>
+    </li>
+    </ul>
+
+
+
+    <p class="tag_title">Returns:</p>
+    <ul class="return">
+      <li>
+  <div class='inline'>
+    <p>
+Model updater object
+</p>
+
+
+  </div>
+</li>
+    </ul>
+
+
+
+
+  </div>
+</div>
+</div>
+</div>
+
+<hr/>
+
+<p class="signature">
+Generated Feb 1, 2021 4:16:18 PM
+</p>
+
+</body>

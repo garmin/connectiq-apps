@@ -1,0 +1,26 @@
+<strings>
+
+    <string id="AppName">${appName}</string>
+
+    <string id="BackgroundColorTitle">Background Color</string>
+    <string id="ForegroundColorTitle">Foreground Color</string>
+    <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+    <string id="Complication1">Complication 1</string>
+    <string id="Complication2">Complication 2</string>
+    <string id="Complication3">Complication 3</string>
+
+    <string id="Battery">Battery</string>
+    <string id="Steps">Steps</string>
+    <string id="Date">Date</string>
+    <string id="HeartRate">Heart Rate</string>
+    <string id="ActiveMinutes">Active Minutes Per Week</string>
+    <string id="None">None</string>
+
+    <string id="ColorBlack">Black</string>
+    <string id="ColorDarkGray">Dark Gray</string>
+    <string id="ColorLightGray">Light Gray</string>
+    <string id="ColorWhite">White</string>
+    <string id="ColorBlue">Blue</string>
+    <string id="ColorRed">Red</string>
+
+</strings>

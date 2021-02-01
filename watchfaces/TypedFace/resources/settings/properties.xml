@@ -1,0 +1,10 @@
+<properties>
+
+    <property id="BackgroundColor" type="number">0x000000</property>
+    <property id="ForegroundColor" type="number">0xFFFFFF</property>
+    <property id="UseMilitaryFormat" type="boolean">false</property>
+    <property id="Complication1" type="number">0</property>
+    <property id="Complication2" type="number">1</property>
+    <property id="Complication3" type="number">2</property>
+
+</properties>

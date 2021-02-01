@@ -1,0 +1,73 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <!--
+        Import the SVGs and scale all the icons to 10% of the screen
+        All icons from freeicons.io
+    -->
+    <bitmap id="batteryFull" filename="full_battery.svg" scaleX="15%" scaleY="15%" scaleRelativeTo="screen">
+        <palette>
+            <color>000000</color>
+            <color>555555</color>
+            <color>AAAAAA</color>
+        </palette>        
+    </bitmap>
+    <bitmap id="batteryHalf" filename="half_battery.svg" scaleX="15%" scaleY="15%" scaleRelativeTo="screen">
+        <palette>
+            <color>000000</color>
+            <color>555555</color>
+            <color>AAAAAA</color>
+        </palette>        
+    </bitmap>  
+    <bitmap id="batteryQuarter" filename="low_battery.svg" scaleX="15%" scaleY="15%" scaleRelativeTo="screen">
+        <palette>
+            <color>000000</color>
+            <color>555555</color>
+            <color>AAAAAA</color>
+        </palette>        
+    </bitmap> 
+    <bitmap id="batteryCharging" filename="charging_battery.svg" scaleX="15%" scaleY="15%" scaleRelativeTo="screen">
+        <palette>
+            <color>000000</color>
+            <color>555555</color>
+            <color>AAAAAA</color>
+        </palette>        
+    </bitmap>
+    <bitmap id="steps" filename="steps.svg" scaleX="20%" scaleY="20%" scaleRelativeTo="screen" dithering="none">
+        <palette>
+            <color>000000</color>
+            <color>555555</color>
+            <color>AAAAAA</color>
+        </palette>        
+    </bitmap>
+    <bitmap id="calendar" filename="calendar.svg" scaleX="15%" scaleY="15%" scaleRelativeTo="screen" dithering="none">
+        <palette>
+            <color>000000</color>
+            <color>555555</color>
+            <color>AAAAAA</color>
+        </palette>        
+    </bitmap>
+    <bitmap id="activeMinutes" filename="activeminutes.svg" scaleX="18%" scaleY="18%" scaleRelativeTo="screen" dithering="none">
+        <palette>
+            <color>000000</color>
+            <color>555555</color>
+            <color>AAAAAA</color>
+        </palette>        
+    </bitmap> 
+
+    <bitmap id="heart" filename="heart.svg" scaleX="20%" scaleY="20%" scaleRelativeTo="screen" dithering="none">
+        <palette>
+            <color>000000</color>
+            <color>555555</color>
+            <color>AAAAAA</color>
+        </palette>        
+    </bitmap>         
+
+    <bitmap id="complication" filename="complication.svg" scaleX="20%" scaleY="20%" scaleRelativeTo="screen" dithering="none">
+        <palette>
+            <color>C0C0C0</color>
+            <color>808080</color>
+            <color>000000</color>
+        </palette>        
+    </bitmap>  
+
+</drawables>
