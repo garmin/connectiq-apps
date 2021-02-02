@@ -1,0 +1,18 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <drawable id="Complication1" class="Complicated.ComplicationDrawable">
+        <param name="locX">dc.getWidth() / 2</param>
+        <param name="locY">dc.getHeight() * .12</param>
+    </drawable>
+
+    <drawable id="Complication2" class="Complicated.ComplicationDrawable">
+        <param name="locX">dc.getWidth() * .88 </param>
+        <param name="locY">dc.getHeight() / 2</param>
+    </drawable>
+
+    <drawable id="Complication3" class="Complicated.ComplicationDrawable">
+        <param name="locX">dc.getWidth() / 2 </param>
+        <param name="locY">dc.getHeight() * .88</param>
+    </drawable>
+    <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_NUMBER_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+</layout>
