@@ -51,15 +51,17 @@ Note: This assumes that you have the Eclipse IDE installed and configured for Co
 1. Open Eclipse and import the MonkeyMusic project.
 2. Create a Run Configuration for the MonkeyMusic project using the _Forerunner 645M_ device.
 3. Run the sample in the Connect IQ simulator.
-4. Choose _Configure Sync_ from the menu.
-5. Select one or more tracks from the displayed list of downloadable tracks.
-6. Select _Done_ from the menu, and the app will exit.
-7. Run the sample in the simulator again.
-8. Choose _Sync_ from the menu. A progress bar will appear while the download is in progress.
-9. When completed, press or swipe _Back_, and the app will exit.
-10. Run the sample in the simulator again.
-11. Choose _Configure Playback_ from the menu, and a list of downloaded tracks will appear.
-12. Select one or more tracks from the displayed list of downloaded tracks.
-13. Select _Done_ from the menu, and the app will exit.
-14. Run the sample in the simulator again.
-15. Select _Playback_ to display standard playback controls and current track information. Device inputs (buttons, touch screen, etc., depending on the devcie) can be used to control the selected track. **No actual playback occurs.**
+4. Disable _Settings > Use Device HTTPS Requirements_, so that the simulated device can connect to the server over HTTPS.
+> NOTE: This will not cause a security issue while you are connecting locally in the simulator. When you deploy your app however, any endpoints you connect to should be secured with HTTPS.
+5. Choose _Settings > Media Mode > Sync Configuration_ from the simulator top menu.
+6. Select one or more tracks from the displayed list of downloadable tracks.
+7. Select _Done_ from the menu, and the app will exit.
+8. Run the sample in the simulator again.
+9. Choose _Settings > Media Mode > Sync_ from the simulator top menu. A progress bar will appear while the download is in progress.
+10. When completed, press or swipe _Back_, and the app will exit.
+11. Run the sample in the simulator again.
+12. Choose _Settings > Media Mode > Playback Configuration_ from the simulator top menu, and a list of downloaded tracks will appear.
+13. Select one or more tracks from the displayed list of downloaded tracks.
+14. Select _Done_ from the menu, and the app will exit.
+15. Run the sample in the simulator again.
+16. Select _Playback_ from the simulator top menu to display standard playback controls and current track information. Device inputs (buttons, touch screen, etc., depending on the devcie) can be used to control the selected track. **No actual playback occurs.**
