@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 
 import cgi
 import cgitb; cgitb.enable() # Optional for debugging only
