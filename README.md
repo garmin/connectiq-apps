@@ -60,8 +60,8 @@ Thank you!
 [Connect IQ Showcase]: https://forums.garmin.com/developer/connect-iq/f/showcase
 [Connect IQ Bug Reports]: https://forums.garmin.com/developer/connect-iq/i/bug-reports
 [Connect IQ Wiki]: https://forums.garmin.com/developer/connect-iq/w/wiki
-[Connect IQ Programmer's Guide]: https://developer.garmin.com/connect-iq/programmers-guide/
-[Connect IQ User Experience Guide]: https://developer.garmin.com/connect-iq/user-experience-guide/
+[Connect IQ Programmer's Guide]: https://developer.garmin.com/connect-iq/connect-iq-basics/
+[Connect IQ User Experience Guide]: https://developer.garmin.com/connect-iq/user-experience-guidelines/
 [Connect IQ API Documentation]: https://developer.garmin.com/connect-iq/api-docs/
 [Garmin Connect]: https://connect.garmin.com
 [Garmin Product Support]: https://support.garmin.com/
