@@ -34,7 +34,7 @@ class ConfigureSyncView extends WatchUi.View {
         } else if (mMenuShown) {
             WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
         } else {
-            var token = Application.getApp().getProperty(Properties.AUTHENTICATION_TOKEN);
+            token = Application.getApp().getProperty(Properties.AUTHENTICATION_TOKEN);
             Communications.makeWebRequest(Constants.PROVIDER_URL, {"mode" => "listing", "token" => token}, {}, method(:onFileListing));
             mSongs = {};
         }
