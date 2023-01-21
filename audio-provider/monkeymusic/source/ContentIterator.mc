@@ -25,20 +25,16 @@ class ContentIterator extends Media.ContentIterator {
         var profile = new PlaybackProfile();
 
         profile.playbackControls = [
-                                   Media.PLAYBACK_CONTROL_PLAY,
-                                   Media.PLAYBACK_CONTROL_PAUSE,
+                                   Media.PLAYBACK_CONTROL_PLAYBACK,
                                    Media.PLAYBACK_CONTROL_SHUFFLE,
                                    Media.PLAYBACK_CONTROL_PREVIOUS,
                                    Media.PLAYBACK_CONTROL_NEXT,
                                    Media.PLAYBACK_CONTROL_SKIP_FORWARD,
                                    Media.PLAYBACK_CONTROL_SKIP_BACKWARD,
                                    Media.PLAYBACK_CONTROL_REPEAT,
-                                   Media.PLAYBACK_CONTROL_THUMBS_UP_THUMBS_DOWN
                                    ];
 
-        profile.playSpeedMultipliers = [Media.PLAYBACK_SPEED_NORMAL];
         profile.attemptSkipAfterThumbsDown = true;
-        profile.supportsPlaylistPreview = true;
         profile.requirePlaybackNotification = false;
         profile.playbackNotificationThreshold = 30;
         profile.skipPreviousThreshold = 4;
