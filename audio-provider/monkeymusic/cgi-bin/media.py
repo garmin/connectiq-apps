@@ -8,6 +8,7 @@ import logging
 import os
 import sys
 import traceback
+import shutil
 
 ################
 # GLOBALS
@@ -71,10 +72,10 @@ def generateLoginForm():
 def listFiles(token):
     if token == TOKEN_VALUE:
         fileMapping = {}
-        for file, meta in SONG_INFO.viewitems():
+        for file, meta in SONG_INFO.items():
             fileMapping[file] = {
                 'url': URL_FORMAT.format(token=token, file=file),
-                'id': hashlib.md5(file).hexdigest(),
+                'id': hashlib.md5(file.encode('utf-8')).hexdigest(),
                 'name': meta['name'],
                 'canSkip': meta['canSkip'],
                 'type': meta['type']
@@ -88,16 +89,16 @@ def serveFile(token, requestedFile):
     logging.debug('servFile' + ' token=' + token + ' requestedFile=' + requestedFile)
     if token == TOKEN_VALUE:
         try:
-            with open(requestedFile, "rb") as f:
-                body = f.read()
-        except IOError, e:
+            #with open(requestedFile, "rb") as f:
+                body = open(requestedFile, "rb")#.read()
+        except IOError as e:
             error = {'errorMessage': 'Unknown song'}
             logging.debug(json.dumps(error))
             return (STATUS[400], 'application/json', json.dumps(error), {})
 
         otherHeaders = {}
-        otherHeaders['Content-Length'] = str(os.path.getsize(requestedFile))
-        otherHeaders['Accept-Ranges'] = 'bytes'
+        #otherHeaders['Content-Length'] = str(os.path.getsize(requestedFile))
+        #otherHeaders['Accept-Ranges'] = 'bytes'
         otherHeaders['Content-Disposition'] = '"attachment; filename=' + requestedFile + '"'
 
         if requestedFile.endswith('mp3'):
@@ -136,20 +137,20 @@ logging.basicConfig(filename='media.log', level=logging.DEBUG)
 try:
     params = cgi.FieldStorage()
 
-    if params.has_key('redirectUrl'):
+    if 'redirectUrl' in params:
         redirectUrl = params['redirectUrl'].value
         user = params['user'].value if 'user' in params else None
         password = params['password'].value if 'password' in params else None
-        if not params.has_key('user'):
+        if not 'user' in params:
             (status, contentType, body, otherHeaders) = generateLoginForm()
         else:
             (status, contentType, body, otherHeaders) = verifyUserAndRedirect(user, password)
-    elif params.has_key('file'):
+    elif 'file' in params:
         logging.debug('getting file')
         token = params['token'].value
         requestedFile = params['file'].value
         (status, contentType, body, otherHeaders) = serveFile(token, requestedFile)
-    elif params.has_key('mode'):
+    elif 'mode' in params:
         mode = params['mode'].value
         if mode == 'listing':
             token = params['token'].value
@@ -160,14 +161,24 @@ try:
         (status, contentType, body, otherHeaders) = generateGenericError()
 
     # output page
-    print 'Status: ' + status
-    print 'Content-Type: ' + contentType
+    print('Status: ' + status)
+    logging.debug('Status: ' + status)
+    print('Content-Type: ' + contentType)
+    logging.debug('Content-Type: ' + contentType)
     for key in otherHeaders:
-        print key + ': ' + otherHeaders[key]
-    print
-    print body
+        print(key + ': ' + otherHeaders[key])
+        logging.debug(key + ': ' + otherHeaders[key])
+    print("")
+    logging.debug("")
+    if "audio" in contentType:
+        shutil.copyfileobj(body, sys.stdout.buffer)
+        body.close()
+    else:
+        print(body)
+        logging.debug(body)
+    
 except:
-    print 'Content-Type: text/html'
-    print
-    print "\n\n<PRE>"
+    print('Content-Type: text/html')
+    print("")
+    print ("\n\n<PRE>")
     traceback.print_exc()
