@@ -9,7 +9,7 @@ A simple scoring app for disc golf.
 ### **[Namaste](https://github.com/garmin/connectiq-apps/tree/master/device-apps/namaste)**
 A simple yoga app for measuring quantitative enlightenment (measured in Namastes) for your workout.
 
-### **[Bluetooth Mesh Sample](https://github.com/garmin/connectiq-apps/tree/master/bluetooth-mesh-sample)**
+### **[Bluetooth Mesh Sample](https://github.com/garmin/connectiq-apps/tree/master/device-apps/bluetooth-mesh-sample)**
 A sample app that uses the Bluetooth Mesh barrel to connect to a mesh network. See the [blog post](https://forums.garmin.com/developer/connect-iq/b/news-announcements/posts/bluetooth-mesh-networking-with-connect-iq) for details.
 
 ### **[Lidar Theremin](https://github.com/garmin/connectiq-apps/tree/master/device-apps/lidar-theremin)**
