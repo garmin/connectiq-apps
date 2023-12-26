@@ -23,7 +23,7 @@ module Complicated {
 
         //! Update the model 
         public function updateModel() as Complicated.Model {
-            var info = Gregorian.info(Time.now(), Gregorian.FORMAT_SHORT);
+            var info = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
             var dateString = Lang.format("$1$/$2$", [info.month, info.day]);
             return new LabelModel(dateString, _icon);
         }
