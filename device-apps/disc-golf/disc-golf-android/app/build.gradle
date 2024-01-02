@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 33
     buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "com.garmin.android.apps.samples.disgolf"
-        minSdkVersion 18
-        targetSdkVersion 19
+        minSdkVersion 24
+        targetSdkVersion 31
     }
 
     buildTypes {
@@ -24,6 +24,6 @@ android {
 
 dependencies {
     // Local binary dependency
-    compile 'com.android.support:support-v4:19.1.0'
-    compile files('libs/connectiq.jar')
+    //implementation 'com.android.support:support-v4:19.1.0'
+    implementation files('libs/connectiq.jar')
 }
