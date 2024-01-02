@@ -1,1 +1,2 @@
 project.manifest = manifest.xml
+project.typecheck = 0
