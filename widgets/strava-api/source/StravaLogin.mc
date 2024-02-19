@@ -86,7 +86,7 @@ class LoginTransaction
             {
                 "client_id"=>$.ClientId,
                 "response_type"=>"code",
-                "scope"=>"public",
+                "scope"=>"read",
                 "redirect_uri"=>$.RedirectUri
             },
             // Redirect URL
