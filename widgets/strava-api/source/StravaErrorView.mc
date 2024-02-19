@@ -13,6 +13,7 @@ class ErrorView extends WatchUi.View {
 
     function initialize(message) {
         View.initialize();
+        _message = message;
     }
 
     function onLayout(dc) {
