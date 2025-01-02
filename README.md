@@ -9,7 +9,7 @@ This repo is officially maintained by the Garmin Connect IQ team, containing a s
 : Special apps that are used directly by the device media player to acquire and play audio content.
 
 **[Barrels](https://github.com/garmin/connectiq-apps/tree/master/barrels)**
-:   Monkey Barrels are a way for developers to create custom Monkey C libraries containing source code and resource information that can be easily shared across Connect IQ Projects. To find out more about Monkey Barrels, please see the <a href="https://developer.garmin.com/connect-iq/programmers-guide/shareable-libraries/">Shareable Libraries</a> chapter in the Programmer's Guide.
+:   Monkey Barrels are a way for developers to create custom Monkey C libraries containing source code and resource information that can be easily shared across Connect IQ Projects. To find out more about Monkey Barrels, please see the <a href="https://developer.garmin.com/connect-iq/core-topics/shareable-libraries/">Shareable Libraries</a> chapter in the Programmer's Guide.
 
 **[Data Fields](https://github.com/garmin/connectiq-apps/tree/master/datafields)**
 :   Apps that run within the native activities that allow developers to compute values based off of the current activity, such as running, biking, etc.
